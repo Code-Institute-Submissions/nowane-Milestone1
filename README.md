@@ -1,45 +1,212 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+## **ze Gym | User Centric Front-End Development Milestone Project 1**
 
-Welcome USER_NAME,
+ * GYM LOGO 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+[View the live project here.](https://-----------------------)
 
-## Gitpod Reminders
+### **Project Overview**
+> This is the first milestone project in obtaining a **Full-Stack Web Development Diploma** from  **[Code Institute](https://codeinstitute.net/)**. This project is made with **HTML**, **CSS** and the **Bootstrap** framework. To improve the overall quality and user experience of this website other technologies were used as well. The full list of technologies used can be found in the technologies section of this document. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### **Mockup**
 
-`python3 -m http.server`
+### **Table of Content**
 
-A blue button should appear to click: _Make Public_,
+> * [Tradeoff Table](#Tradeoff-Table)
+> * [User Experience (UX)](#User-Experience-(UX))
+> * [User stories](#User-Stories) 
+>    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
+>    * [Returning Visitor Goals](#Returning-Visitor-Goals)
+>    * [Frequent User Goals](#Frequent-User-Goals)
+> * [Design](#Design)
+>    * [Colour Scheme](#Colour-Scheme)
+>    * [Typography](#Typography)
+>    * [Imagery](#Imagery)
+> * [Wireframes](#Wireframes)
+>    * [Big Screens]
+>    * [Small Screens]
+> * [Features](#Features)
+> * [Technologies used](#Technologies-used)
+>    * [Languages used](#Languages-used)
+>    * [Integrations](#Integrations)
+>    * [Workspace, version control and repository storage](#Workspace,-version-control-and-Repository-storage)
+>    * [Other Technologies](#Other-Technologies)
+> * [Testing](#Testing)
+>    * [Testing User Stories from User Experience (UX) Section](#Testing-User-Stories-from-User-Experience-(UX)-Section)
+>    * [Further testing](#Further-testing)
+>    * [Known Bugs](#Known-Bugs)
+> * [Credits](#Credits)
+> * [Deployment](#Deployment)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+**Please note: To open any links in this document in a new browser tab, please press CTRL + Click.**
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-## Updates Since The Instructional Video
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Tradeoff Table
+	
+> Opportunity/Problem | Importance | Viability/Feasibility
+> --------------------|------------|-----------
+> Create an online presence | 5 | 5
+> Promote social media | 4 | 5
+> Increase member sign-ups | 5 | 4
+> Be able to show available classes and schedule| 4 | 5
+> Show user reviews/testemonials | 4 | 4
+> Create a sign-up/login section for members | 5 | 1
+> Facilitate members to give feedback/suggestions | 5 | 5
+> Provide exercise instructions in text or video | 5 | 1
+> Create a newsletter about changes and happenings | 3 | 1
+>
+> [Back to Table of Content](#Table-of-Content)
 
 ---
 
-Happy coding!
+### **User Experience (UX)**
+
+> #### **User stories**
+>
+>  -  ##### **First Time Visitor Goals**
+>
+> * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about this gym.
+> * As a First Time Visitor, I want to be able to easily navigate throughout the site to find useful content.
+> * As a First Time Visitor, I want to be able to view the content of the website clearly on my mobile device.
+> * As a First Time Visitor, I want to be able to find testimonials to understand what their users think of them to determine their trustworthiness. 
+> * As a First Time Visitor, I want to be able to locate their social media links to see their followings on social media, so I can determine how well known they are.
+> * As a First Time Visitor, I want to be able to find out what is costs to become a member.
+>
+>  -  ##### **Returning Visitor Goals**
+>
+> * As a Returning Visitor, I want to find information about the services they offer.
+> * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+> * As a Returning Visitor, I want to find information about the given classes.
+>
+> -   ##### **Frequent User Goals**
+>
+> * As a Frequent User, I want to check to see if there are any (newly added) announcements.
+> * As a Frequent User, I want to check to see if there are any new updates on the lesson schedule.
+> * As a Frequent User, I want to check to see if there are any new photos and media from the clubs activities at social media.
+>
+>[Back to Table of Content](#Table-of-Content)
+
+---
+
+
+   ### **Design**
+
+>  -  #### **Colour Scheme**
+> 
+>  -  #### **Typography**
+> 
+>  -  #### **Imagery**
+> 
+>
+>[Back to Table of Content](#Table-of-Content)
+
+---
+
+   ### **Wireframes**
+
+> 
+> 
+>
+>[Back to Table of Content](#Table-of-Content)
+
+---
+
+-   ### **Features**
+
+[Back to Table of Content](#Table-of-Content)
+
+---
+
+  ### **Technologies used**
+
+>  -  #### **Languages used**
+>
+> * **HTML** - Main language used to structure the individual pages of the website.
+> * **CSS** - Styling language used to format and visually build upon the accompanying HTML.
+> 
+>  -  #### **Integrations**
+>
+> * [Bootstrap](https://getbootstrap.com/) - Used for core structuring the layout of the website, ensuring mobile-first design and responsive size display.
+> * [Google Fonts](https://fonts.google.com/) - will be used, specificity later ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> * [Font Awesome](https://fontawesome.com/) - will be used, specificity later ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+>
+>  -  #### **Workspace, version control and repository storage**
+>
+> * [Git](https://git-scm.com/) - Version control software used to commit and push code to the GitHub repository where the source code is stored.
+> * [Gitpod](https://www.gitpod.io/) - Main workspace IDE (Integrated Development Environment)
+> * [GitHub](https://github.com/) - Used to host the deployed website and repository of all previous versions of the build.
+>
+>  -  #### **Other Technologies**
+>
+> * [Balsamiq](https://balsamiq.com/) - Used to create wireframes for the UX stage of the project.
+> * [Coolors](https://coolors.co/) - Used to find a matching color palette for the website
+> * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - Used throughout building the project, testing the responsiveness of elements and CSS visuals.
+>
+>
+> 
+>
+>
+> [Back to Table of Content](#Table-of-Content)
+
+---
+
+- ### **Testing**
+
+> The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+>
+> * [W3C HTML Validator](https://validator.w3.org/) - Used to validate HTML
+> * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate CSS
+>
+> -  #### **Testing User Stories from User Experience (UX) Section**
+>
+>		First Time Visitor Goals
+>
+>		Returning Visitor Goals
+>
+>		Frequent User Goals
+>
+> [Back to Table of Content](#Table-of-Content)
+
+   -   #### **Further testing**
+
+>      Google Lighthouse
+>
+>[Back to Table of Content](#Table-of-Content)
+
+   -   #### **Known Bugs**
+
+>
+>
+>
+> [Back to Table of Content](#Table-of-Content)
+
+---
+
+-   ### **Deployment**
+
+>
+>
+>
+>
+>
+>
+> [Back to Table of Content](#Table-of-Content)
+
+---
+
+-   ### **Credits**
+
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+> [Back to Table of Content](#Table-of-Content)
+
+---
