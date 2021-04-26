@@ -105,10 +105,16 @@
 
    ### **Wireframes**
 
-> 
-> 
+> Added [Wireframes](https://github.com/nowane/Milestone1/blob/master/assets/docs/wireframes/MS1-Wireframes.pdf) for desktop, tablet and mobile.
+>  
+> This is a one-page website containing the following five sections:
+>  * Home
+>  * About us
+>  * Classes
+>  * Schedule
+>  * Contact
 >
->[Back to Table of Content](#Table-of-Content)
+>[Back to Table of Content](#Table-of-Content) 
 
 ---
 
