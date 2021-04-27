@@ -22,8 +22,6 @@
 >    * [Typography](#Typography)
 >    * [Imagery](#Imagery)
 > * [Wireframes](#Wireframes)
->    * [Big Screens]
->    * [Small Screens]
 > * [Features](#Features)
 > * [Technologies used](#Technologies-used)
 >    * [Languages used](#Languages-used)
@@ -32,8 +30,6 @@
 >    * [Other Technologies](#Other-Technologies)
 > * [Testing](#Testing)
 >    * [Testing User Stories from User Experience (UX) Section](#Testing-User-Stories-from-User-Experience-(UX)-Section)
->    * [Further testing](#Further-testing)
->    * [Known Bugs](#Known-Bugs)
 > * [Credits](#Credits)
 > * [Deployment](#Deployment)
 
@@ -165,7 +161,7 @@
 
 - ### **Testing**
 
-> This [Testing]((https://github.com/nowane/Milestone1/blob/master/testing.md)) document will contain all testing, except user stories (see below).
+> This [Testing](https://github.com/nowane/Milestone1/blob/master/testing.md) document will contain all testing, except user stories (see below).
 > 
 >
 > -  #### **Testing User Stories from User Experience (UX) Section**
