@@ -1,6 +1,6 @@
 ### Navigation bar
 >
-> 
+> * When at mobile size, the hamburger menu shows at the right side. When clicked, the link-items are shown at the left side. This isn't an intuitive UX, since you would expect the listed items to show at the right side as well.
 >
 >
 >
