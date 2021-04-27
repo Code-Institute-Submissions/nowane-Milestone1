@@ -1,0 +1,47 @@
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation bar */
+.nav-item {
+    text-align: right;
+}
+
+.btn {
+    color: #28a745;
+      background: #FFF;
+      padding: 3px 6px;
+      margin: 3px;
+      border: 3px solid #28a745;
+      font-weight: bold;
+      border-radius: 1px;
+      display: inline-block;
+      text-align: center;
+      box-shadow: inset 0 0 0 0 #28a745;
+      -webkit-transition: all ease 0.8s;
+      -moz-transition: all ease 0.8s;
+      transition: all ease 0.8s;
+  }
+  .btn:hover {
+      box-shadow: inset 170px 0 0 0 #28a745;
+      color: #fff;
+  }
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Home screen / Hero image */
+
+
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
+
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
+
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
