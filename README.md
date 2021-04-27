@@ -114,7 +114,11 @@
 >  * Schedule
 >  * Contact
 >
+<<<<<<< HEAD
 >[Back to Table of Content](#Table-of-Content) 
+=======
+>[Back to Table of Content](#Table-of-Content)
+>>>>>>> origin/master
 
 ---
 
