@@ -114,17 +114,19 @@
 >  * Schedule
 >  * Contact
 >
-<<<<<<< HEAD
->[Back to Table of Content](#Table-of-Content) 
-=======
 >[Back to Table of Content](#Table-of-Content)
->>>>>>> origin/master
 
 ---
 
 -   ### **Features**
 
-[Back to Table of Content](#Table-of-Content)
+>
+>
+>
+>
+>
+>
+> [Back to Table of Content](#Table-of-Content)
 
 ---
 
@@ -163,31 +165,16 @@
 
 - ### **Testing**
 
-> The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
->
-> * [W3C HTML Validator](https://validator.w3.org/) - Used to validate HTML
-> * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate CSS
+> This [Testing]((https://github.com/nowane/Milestone1/blob/master/testing.md)) document will contain all testing, except user stories (see below).
+> 
 >
 > -  #### **Testing User Stories from User Experience (UX) Section**
 >
->		First Time Visitor Goals
+> -    ##### **First Time Visitor Goals**
 >
->		Returning Visitor Goals
+> -    ##### **Returning Visitor Goals**
 >
->		Frequent User Goals
->
-> [Back to Table of Content](#Table-of-Content)
-
-   -   #### **Further testing**
-
->      Google Lighthouse
->
->[Back to Table of Content](#Table-of-Content)
-
-   -   #### **Known Bugs**
-
->
->
+> -    ##### **Frequent User Goals**
 >
 > [Back to Table of Content](#Table-of-Content)
 
