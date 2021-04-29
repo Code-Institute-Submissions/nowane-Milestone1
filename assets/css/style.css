@@ -25,7 +25,16 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Home screen / Hero image */
 
-
+#section-hero-image {
+    background: url(../images/hero-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    position: fixed;
+    min-height: 100%;
+    width: 100%;
+}
 
 
 
