@@ -51,24 +51,52 @@
             </div>
             <!-- Button based on https://jsfiddle.net/shuvamallick/3o0h5oka/  but completely customized-->
             <!-- Trigger/Open The Modal -->
-            <button id="myBtn" type="button" class="btn btn-danger btn-sm d-none d-sm-inline-block">Sign in / Sign
+            <button type="button" class="btn-sm d-none d-sm-inline-block btnAnimateGreen" data-toggle="modal"
+                data-target="#exampleModal">Sign in / Sign
                 up</button>
 
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">Sign in form</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp" placeholder="Email Address" required>
+                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                        anyone else.</small>
+                                </div>
 
-                <!-- Modal content -->
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <span class="close">&times;</span>
-                        <h2>Modal Header</h2>
-                    </div>
-                    <div class="modal-body">
-                        <p>Some text in the Modal Body</p>
-                        <p>Some other text...</p>
-                    </div>
-                    <div class="modal-footer">
-                        <h3>Modal Footer</h3>
+                                <div class="form-group">
+                                    <label for="exampleInputPassword1">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1"
+                                        aria-describedby="Password" placeholder="Password" required>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="exampleInputRepeatPassword1">Repeat Password</label>
+                                    <input type="password" class="form-control" id="exampleInputRepeatPassword1"
+                                        placeholder="Repeat Password" required>
+                                </div>
+
+                                <div class="form-group form-check">
+                                    <input type="checkbox" checked="checked" class="form-check-input"
+                                        id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -76,10 +104,12 @@
     </header>
 
     <!-- Hero image -->
-        <!--  http://bit.ly/3qSMcbN Used as a guideline for CSS styling -->
-    <section id="section-hero-image">
+    <!--  http://bit.ly/3qSMcbN Used as a guideline for CSS styling -->
+    <section>
+        <div id="section-hero-image">
 
 
+        </div>
     </section>
 
     <!-- Callou t-->
