@@ -1,9 +1,9 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation bar */
-.nav-item {
+.navItem {
     text-align: right;
 }
 
-.btn {
+.btnAnimateGreen {
     color: #28a745;
     background: #FFF;
     padding: 3px 6px;
@@ -19,31 +19,85 @@
     transition: all ease 0.8s;
 }
 
-.btn:hover {
+.btnAnimateGreen:hover {
     box-shadow: inset 170px 0 0 0 #28a745;
     color: #fff;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Home screen / Hero image */
 
-#section-hero-image {
-    background-image: url(../images/hero-img.png) no-repeat center center fixed;
+#sectionHeroImage {
+    background-image: url("../images/hero-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    position: relative;
+    height: 100vh;
     overflow: hidden;
+}
+
+.HeroText {
+    text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
+
+.icon-bar {
+    position: fixed;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 14px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 1.4rem;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.icon-bar a:hover {
+    background-color: #000;
+}
+
+.facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.instagram {
+    background: #E1306C;
+    color: white;
+}
+
+.youtube {
+    background: #bb0000;
+    color: white;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Callout  */
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About us */
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Testimonials */
+
+.testimonials {
+    padding: 5rem;
   }
 
 
-
-
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
-
-
-
-
-
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
 
 
