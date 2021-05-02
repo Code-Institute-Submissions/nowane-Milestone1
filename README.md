@@ -193,7 +193,7 @@
 > The pictures used for the testimonial-section of the website came from [Unsplash](https://unsplash.com/). Many thanks to the following photographers!
 >  * [Michael Dam](https://unsplash.com/@michaeldam) with this [picture](https://unsplash.com/photos/mEZ3PoFGs_k)
 >  * [Joseph Gonzalez](https://unsplash.com/@miracletwentyone) with this [picture](https://unsplash.com/photos/iFgRcqHznqg)
->  * [Eleanor]https://unsplash.com/@galexieels02 with this [picture](https://unsplash.com/photos/tCJ44OIqceU)
+>  * [Eleanor](https://unsplash.com/@galexieels02) with this [picture](https://unsplash.com/photos/tCJ44OIqceU)
 >  * [Albert Dera](https://unsplash.com/@albertdera) with this [picture](https://unsplash.com/photos/ILip77SbmOE)
 >  * [Monica Dahiya](https://unsplash.com/@monicasinghdahiya) with this [picture](https://unsplash.com/photos/zANv7V53KQw)
 >  * [Parizad Shojaei](https://unsplash.com/@parizad_shojaei) with this [picture](https://unsplash.com/photos/zdAPoZtQeSE)
