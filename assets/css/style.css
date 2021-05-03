@@ -1,83 +1,85 @@
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation bar */
-.navItem {
-    text-align: right;
+.nav-item {
+  text-align: right;
 }
 
-.btnAnimateGreen {
-    color: #28a745;
-    background: #FFF;
-    padding: 3px 6px;
-    margin: 3px;
-    border: 3px solid #28a745;
-    font-weight: bold;
-    border-radius: 1px;
-    display: inline-block;
-    text-align: center;
-    box-shadow: inset 0 0 0 0 #28a745;
-    -webkit-transition: all ease 0.8s;
-    -moz-transition: all ease 0.8s;
-    transition: all ease 0.8s;
+.btn-slide-red {
+  color: #28a745;
+  background: #FFF;
+  padding: 3px 6px;
+  margin: 3px;
+  border: 3px solid #28a745;
+  font-weight: bold;
+  border-radius: 1px;
+  display: inline-block;
+  text-align: center;
+  box-shadow: inset 0 0 0 0 #28a745;
+  -webkit-transition: all ease 0.8s;
+  -moz-transition: all ease 0.8s;
+  transition: all ease 0.8s;
 }
 
-.btnAnimateGreen:hover {
-    box-shadow: inset 170px 0 0 0 #28a745;
-    color: #fff;
+.btn-slide-red:hover {
+  box-shadow: inset 170px 0 0 0 #28a745;
+  color: #fff;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Home screen / Hero image */
 
-#sectionHeroImage {
-    background-image: url("../images/hero-img.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
+#home 
+
+#section-hero-image {
+  background-image: url("../images/hero-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.HeroText {
-    text-align: center;
+.hero-text {
+  text-align: center;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
 
 .icon-bar {
-    position: fixed;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 14px;
-    transition: all 0.5s ease;
-    color: white;
-    font-size: 1.4rem;
-    border-radius: 50%;
-    margin-left: 5px;
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 1.4rem;
+  border-radius: 50%;
+  margin-left: 5px;
 }
 
 .icon-bar a:hover {
-    background-color: #000;
+  background-color: #000;
 }
 
 .facebook {
-    background: #3B5998;
-    color: white;
+  background: #3B5998;
+  color: white;
 }
 
 .instagram {
-    background: #E1306C;
-    color: white;
+  background: #E1306C;
+  color: white;
 }
 
 .youtube {
-    background: #bb0000;
-    color: white;
+  background: #bb0000;
+  color: white;
 }
 
 
@@ -87,47 +89,58 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About us */
 
-
-
+#about-us{}
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Testimonials */
 
-  .testimonials {
-    margin: 5rem;
-  }
-  
-  .hr-testimonials {
-  
-  }
-  
-  .fa-star {
-    color: goldenrod;
-  }
-  
-  .fa-star-half-alt {
-    color: goldenrod;
-  }
+#testimonials {
+  margin: 5rem;
+}
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~   */
+
+
+.testimonial {}
+
+.hr-testimonial {}
+
+.fa-star {
+  color: goldenrod;
+}
+
+.fa-star-half-alt {
+  color: goldenrod;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Classes */
+
+#classes {}
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Schedule */
+
+#schedule {}
+
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Contact form  */
 
-.contact-form-p {
-    font-style: italic;
-    padding-top: 20px;
-    padding-bottom: 10px;
-  }
-  
-  ::placeholder {
-    font-style: italic;
-  }
-  
-  #btn-contact {
-    margin-bottom: 50px;
-  }
-  
-  .text-muted-form {
-    padding: 10px;
-  }
+#contact .contact-form-p {
+  font-style: italic;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+::placeholder {
+  font-style: italic;
+}
+
+#btn-contact {
+  margin-bottom: 50px;
+}
+
+.text-muted-form {
+  padding: 10px;
+}
 
 
 
