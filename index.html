@@ -258,9 +258,36 @@
     </section>
 
     <!-- Contact -->
-
-    <section class="contact">
-
+    <!-- Based on https://getbootstrap.com/docs/4.6/components/forms/ -->
+    <section class="contact" class="container ">
+        <div class="container text-center">
+            <h3 class="font-weight-bold ">Contact Form</h3>
+            <p class="contact-form-p">Please get in touch</p>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name" class="col-8 d-inline-block" aria-describedby="full name">Full Name</label>
+                    <input class="col-8 form-input" type="text" id="name" name="name" placeholder="- Full Name -">
+                </div>
+                <div class="form-group">
+                    <label for="tel" class="col-8 d-inline-block" aria-describedby="Telephone">Telephone Number</label>
+                    <input class="col-8 form-input" type="tel" id="tel" name="tel" placeholder="- Phone Number -">
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-8 d-inline-block" aria-describedby="emailHelp">Email Address</label>
+                    <input class="col-8 form-input" type="email" id="email" name="email"
+                        placeholder="- Email Address -">
+                </div>
+                <div class="form-group">
+                    <label for="info" class="col-8 d-inline-block" aria-describedby="input message">Your Message</label>
+                    <textarea class="col-8 form-input" name="info" id="info"
+                        placeholder="- Write your message here. -"></textarea>
+                    <p class="text-muted-form contact-form-p"><small id="info" class="form-text text-muted">We'll never
+                            share your personal details with anyone
+                            else.</small></p>
+                </div>
+                <button type="Submit" value="Submit" class="btnAnimateGreen" id="btn-contact">Submit</button>
+            </form>
+        </div>
     </section>
 
     <footer>
