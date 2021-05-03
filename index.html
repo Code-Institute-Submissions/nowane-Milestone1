@@ -25,43 +25,42 @@
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <a href="#Home" class="navbar-brand">ze Gym</a>
             <!-- Navigation toggle-->
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu" type="button"
-                aria-controls="navbarMenu" aria-expanded="false" aria-label="toggle navigation">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" type="button"
+                aria-controls="navbar-menu" aria-expanded="false" aria-label="toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarMenu">
+            <div class="collapse navbar-collapse" id="navbar-menu">
                 <!-- Navigation menu items-->
                 <ul class="navbar-nav mx-auto">
-                    <li class="navItem" data-toggle="collapse">
+                    <li class="nav-item" data-toggle="collapse">
                         <a href="#" class="nav-link">Home</a>
                     </li>
-                    <li class="navItem" data-toggle="collapse">
+                    <li class="nav-item" data-toggle="collapse">
                         <a href="#" class="nav-link">About us</a>
                     </li>
-                    <li class="navItem" data-toggle="collapse">
+                    <li class="nav-item" data-toggle="collapse">
                         <a href="#" class="nav-link">Classes</a>
                     </li>
-                    <li class="navItem" data-toggle="collapse">
+                    <li class="nav-item" data-toggle="collapse">
                         <a href="#" class="nav-link">Schedule</a>
                     </li>
-                    <li class="navItem" data-toggle="collapse">
+                    <li class="nav-item" data-toggle="collapse">
                         <a href="#" class="nav-link">Contact</a>
                     </li>
                 </ul>
             </div>
             <!-- Button based on https://jsfiddle.net/shuvamallick/3o0h5oka/  but completely customized-->
             <!-- Trigger/Open The Modal -->
-            <button type="button" class="btn-sm d-none d-sm-inline-block btnAnimateGreen" data-toggle="modal"
-                data-target="#exampleModal">Sign in / Sign up</button>
+            <button type="button" class="btn-sm d-none d-sm-inline-block btn-slide-red" data-toggle="modal"
+                data-target="#signin-modal">Sign in / Sign up</button>
 
             <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                aria-hidden="true">
+            <div class="modal fade" id="signin-modal" tabindex="-1" aria-labelledby="signin-modal" aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h3 class="modal-title" id="exampleModalLabel">Sign in form</h3>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <h3 class="modal-title" id="signin-modal">Sign in form</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
@@ -69,9 +68,10 @@
                             <form>
                                 <div class="form-group">
                                     <label for="email">Email address</label>
-                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    <input type="email" class="form-control" id="email" aria-describedby="email-help"
                                         placeholder="Email Address" required>
-                                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    <small id="email-help" class="form-text text-muted">We'll never share your email
+                                        with
                                         anyone else.</small>
                                 </div>
 
@@ -82,18 +82,18 @@
                                 </div>
 
                                 <div class="form-group">
-                                    <label for="repeatPassword">Repeat Password</label>
-                                    <input type="password" class="form-control" id="repeatPassword"
+                                    <label for="repeat-password">Repeat Password</label>
+                                    <input type="password" class="form-control" id="repeat-password"
                                         placeholder="Repeat Password" required>
                                 </div>
 
                                 <div class="form-group form-check">
                                     <input type="checkbox" checked="checked" class="form-check-input"
-                                        id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                        id="modal-checkbox">
+                                    <label class="form-check-label" for="modal-checkbox">Remember me</label>
                                 </div>
 
-                                <button type="submit" class="btn btn-primary">Submit</button>
+                                <button type="submit" class="btn-slide-red">Submit</button>
                             </form>
                         </div>
                     </div>
@@ -104,16 +104,19 @@
 
     <!-- Hero image -->
     <!--  http://bit.ly/3qSMcbN Used as a guideline for CSS positioning -->
-    <section>
-        <div id="sectionHeroImage">
-            <div class="HeroText">
+    <section id="home">
+        <div id="section-hero-image">
+            <div class="hero-text">
                 <h2>Dream Big!</h2>
             </div>
             <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
             <div class="icon-bar">
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i class="fab fa-instagram-square"></i></a>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="youtube"><i class="fab fa-youtube-square"></i></a>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i
+                        class="fab fa-instagram-square"></i></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="youtube"><i
+                        class="fab fa-youtube-square"></i></a>
             </div>
 
         </div>
@@ -122,115 +125,127 @@
     </section>
 
     <!-- About us -->
-    <section class="aboutUs">
+    <section id="about-us">
         <div></div>
     </section>
 
     <!-- Testimonials -->
     <!-- Coding is based on https://getbootstrap.com/docs/4.6/components/carousel/ but customized into not being a carousel - see testing.md -->
     <!-- Testimonials are based on https://eatsleepwander.com/gym-review-example/ -->
-    <section class="testimonials text-center">
+    <section id="testimonials" class="text-center">
         <h3 class="font-weight-bold">Testimonials</h3>
-            <div class="row text-center">
-                <div class="col-md-4 ">
-                    <div class="testimonial">
-                        <div class="mx-auto">
-                            <img src="assets/images/review1.png" class="rounded-circle img-fluid" alt="review1">
-                        </div>
-                        <h5 class="font-weight-bold dark-grey-text mt-4">Ava Adley</h5>
-                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                        <hr class="hr-testimonials"> 
-                        <p class="">
-                            ze Gym so far has been awesome. They have exceptional trainers who are very kind too, the
-                            overall vibe is great and so far
-                            I have
-                            only had good experiences. I would definitely recommend them to anyone I know.</p>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <div class="mx-auto">
+                        <img src="assets/images/testimonial-images/review1.png" class="rounded-circle img-fluid"
+                            alt="review-one">
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <div class="testimonial">
-                        <div class="mx-auto">
-                            <img src="assets/images/review2.png" class="rounded-circle img-fluid" alt="review2">
-                        </div>
-                        <h5 class="font-weight-bold dark-grey-text mt-4">Bernardo Bason</h5>
-                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
-                        <hr class="hr-testimonials">
-                        <p class="">
-                            I love this place. I highly recommend ze Gym to anyone looking to get in better shape. The
-                            trainers are really awesome and helpful, plus they make you feel really comfortable. The 45
-                            min training goes super fast and you'll really enjoy doing it. Everyday is different, so it
-                            never becomes boring.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-none d-sm-block">
-                    <div class="testimonial">
-                        <div class="mx-auto">
-                            <img src="assets/images/review3.png" class="rounded-circle img-fluid" alt="review3">
-                        </div>
-                        <h5 class="font-weight-bold dark-grey-text mt-4">Christina Cabral</h5>
-                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
-                        <hr class="hr-testimonials">
-                        <p class="">
-                            Easily the best gym in the city, reasonably priced and a great workout atmosphere – nice but
-                            not fancy, lots of people serious about fitness. Ive gotten some of my best training advice
-                            from staff there.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-none d-md-block">
-                    <div class="testimonial">
-                        <div class="mx-auto">
-                            <img src="assets/images/review4.png" class="rounded-circle img-fluid" alt="review3">
-                        </div>
-                        <h5 class="font-weight-bold dark-grey-text mt-4">Dominic Daniau</h5>
-                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                        <hr class="hr-testimonials">
-                        <p class="">
-                            Good mix of available classes and traditional gym equipment to train at your own
-                            convenience. Lots of space for Olympic
-                            lifting too. Unless you’re here in the early morning or the evening, there are never too
-                            many people which is nice.</p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-none d-md-block">
-                    <div class="testimonial">
-                        <div class="mx-auto">
-                            <img src="assets/images/review5.png" class="rounded-circle img-fluid" alt="review3">
-                        </div>
-                        <h5 class="font-weight-bold dark-grey-text mt-4">Eeshani Elayavalli</h5>
-                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-                        <hr class="hr-testimonials">
-                        <p class="">
-                            LOVE ze Gym! The trainers are always so upbeat, motivating, knowledgeable and encouraging.
-                            The
-                            community they have built here is incredible, and it is such a joy working out
-                            here. Definitely recommend and encourage everyone to try it out. I guarantee you won’t be
-                            disappointed.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-4 d-none d-md-block">
-                    <div class="testimonial">
-                        <div class="mx-auto">
-                            <img src="assets/images/review6.png" class="rounded-circle img-fluid" alt="review3">
-                        </div>
-                        <h5 class="font-weight-bold dark-grey-text mt-4">Friedrich Fahlmer</h5>
-                        <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
-                        <hr class="hr-testimonials">
-                        <p class="">
-                            I absolutely love this place! The staff is amazing and offer tons of support and
-                            encouragement on
-                            your fitness journey. The workouts are tough but rewarding and produce amazing results
-                            quickly if you are ready to commit to it! I’ve been going to ze Gym for about 3 months now
-                            and I have achieved better
-                            results in that time than I have in years at other gyms.</p>
-                    </div>
+                    <h5 class="font-weight-bold dark-grey-text mt-4">Ava Adley</h5>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i></p>
+                    <hr class="hr-testimonial">
+                    <p class="">
+                        ze Gym so far has been awesome. They have exceptional trainers who are very kind too, the
+                        overall vibe is great and so far
+                        I have
+                        only had good experiences. I would definitely recommend them to anyone I know.</p>
                 </div>
             </div>
+            <div class="col-md-4">
+                <div class="testimonial">
+                    <div class="mx-auto">
+                        <img src="assets/images/testimonial-images/review2.png" class="rounded-circle img-fluid"
+                            alt="review-two">
+                    </div>
+                    <h5 class="font-weight-bold dark-grey-text mt-4">Bernardo Bason</h5>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                    <hr class="hr-testimonial">
+                    <p class="">
+                        I love this place. I highly recommend ze Gym to anyone looking to get in better shape. The
+                        trainers are really awesome and helpful, plus they make you feel really comfortable. The 45
+                        min training goes super fast and you'll really enjoy doing it. Everyday is different, so it
+                        never becomes boring.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-none d-sm-block">
+                <div class="testimonial">
+                    <div class="mx-auto">
+                        <img src="assets/images/testimonial-images/review3.png" class="rounded-circle img-fluid"
+                            alt="review-three">
+                    </div>
+                    <h5 class="font-weight-bold dark-grey-text mt-4">Christina Cabral</h5>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                    <hr class="hr-testimonial">
+                    <p class="">
+                        Easily the best gym in the city, reasonably priced and a great workout atmosphere – nice but
+                        not fancy, lots of people serious about fitness. Ive gotten some of my best training advice
+                        from staff there.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+                <div class="testimonial">
+                    <div class="mx-auto">
+                        <img src="assets/images/testimonial-images/review4.png" class="rounded-circle img-fluid"
+                            alt="review-four">
+                    </div>
+                    <h5 class="font-weight-bold dark-grey-text mt-4">Dominic Daniau</h5>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i></p>
+                    <hr class="hr-testimonial">
+                    <p class="">
+                        Good mix of available classes and traditional gym equipment to train at your own
+                        convenience. Lots of space for Olympic
+                        lifting too. Unless you’re here in the early morning or the evening, there are never too
+                        many people which is nice.</p>
+                </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+                <div class="testimonial">
+                    <div class="mx-auto">
+                        <img src="assets/images/testimonial-images/review5.png" class="rounded-circle img-fluid"
+                            alt="review-five">
+                    </div>
+                    <h5 class="font-weight-bold dark-grey-text mt-4">Eeshani Elayavalli</h5>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                    <hr class="hr-testimonial">
+                    <p class="">
+                        LOVE ze Gym! The trainers are always so upbeat, motivating, knowledgeable and encouraging.
+                        The
+                        community they have built here is incredible, and it is such a joy working out
+                        here. Definitely recommend and encourage everyone to try it out. I guarantee you won’t be
+                        disappointed.
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-4 d-none d-md-block">
+                <div class="testimonial">
+                    <div class="mx-auto">
+                        <img src="assets/images/testimonial-images/review6.png" class="rounded-circle img-fluid"
+                            alt="review-six">
+                    </div>
+                    <h5 class="font-weight-bold dark-grey-text mt-4">Friedrich Fahlmer</h5>
+                    <p><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                    <hr class="hr-testimonial">
+                    <p class="">
+                        I absolutely love this place! The staff is amazing and offer tons of support and
+                        encouragement on
+                        your fitness journey. The workouts are tough but rewarding and produce amazing results
+                        quickly if you are ready to commit to it! I’ve been going to ze Gym for about 3 months now
+                        and I have achieved better
+                        results in that time than I have in years at other gyms.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
 
-     <!-- Classes-->
-     <section class="classes container">
+    <!-- Classes-->
+    <section id="classes" class="container">
         <div>
             <h3 class="">Classes</h3>
         </div>
@@ -307,13 +322,13 @@
     </section>
 
     <!-- Schedule -->
-    <section class="schedule">
+    <section id="schedule" class="container">
 
     </section>
 
     <!-- Contact -->
     <!-- Based on https://getbootstrap.com/docs/4.6/components/forms/ -->
-    <section class="contact" class="container ">
+    <section id="contact" class="container ">
         <div class="container text-center">
             <h3 class="font-weight-bold ">Contact Form</h3>
             <p class="contact-form-p">Please get in touch</p>
@@ -339,7 +354,7 @@
                             share your personal details with anyone
                             else.</small></p>
                 </div>
-                <button type="Submit" value="Submit" class="btnAnimateGreen" id="btn-contact">Submit</button>
+                <button type="Submit" value="Submit" class="btn-slide-red" id="btn-contact">Submit</button>
             </form>
         </div>
     </section>
