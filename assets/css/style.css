@@ -120,16 +120,30 @@
   
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About us */
 
+.aboutus-container {
+  margin-top: 100px;
+}
+
+.aboutus-p{
+  margin-top: 50px;
+}
+
 #about-us{}
+
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Testimonials */
+
+.testemonials-container {
+  margin-top: 100px;
+}
+
+.testimonial {
+  margin-top: 50px;
+}
 
 #testimonials {
   margin: 5rem;
 }
-
-
-
-.testimonial {}
 
 .hr-testimonial {}
 
@@ -143,9 +157,19 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Classes */
 
+.classes-container {
+  margin-top: 100px;
+}
+
+.class-title {
+  margin-top: 50px;
+}
+
+.classes-class {
+  margin-top: 50px;
+}
+
 #classes {}
-
-
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Schedule */
 
@@ -154,6 +178,10 @@
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Contact form  */
+
+.contact-container {
+  margin-top: 100px;
+}
 
 #contact .contact-form-p {
   font-style: italic;
