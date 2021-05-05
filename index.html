@@ -60,12 +60,12 @@
     <!--  http://bit.ly/3qSMcbN Used as a guideline for CSS positioning -->
     <section id="home">
         <div id="section-hero-image">
-            <div class="hero-text">
+            <div class="hero-text text-center">
                 <h2>Dream Big!</h2>
             </div>
             <!-- Callout -->
-            <div class="container container-center">
-                <div class="container callout-container text-center">
+            <div class="container container-center text-center">
+                <div class="container callout-container">
                     <div class="row callout-position">
                         <div class="col-12">
                             <section class="callout jumbotron opaque border border-white">
@@ -78,24 +78,24 @@
                     </div>
                 </div>
             </div>
-                <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
-                <div class="icon-bar">
-                    <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i
-                            class="fab fa-facebook-square"></i></a>
-                    <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i
-                            class="fab fa-instagram-square"></i></a>
-                    <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="youtube"><i
-                            class="fab fa-youtube-square"></i></a>
-                </div>
+            <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
+            <div class="icon-bar">
+                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i
+                        class="fab fa-facebook-square"></i></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i
+                        class="fab fa-instagram-square"></i></a>
+                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="youtube"><i
+                        class="fab fa-youtube-square"></i></a>
             </div>
+        </div>
     </section>
 
     <!-- About us -->
     <div class="container aboutus-container">
         <section id="aboutus" class="container">
             <div class="container aboutus-container text-center">
-                <h2>About Us</h2>
-                <p> ze Gym is an ultra-modern fitness center with excellent amenities and training
+                <h2 class="font-weight-bold">About Us</h2>
+                <p class="aboutus-p"> ze Gym is an ultra-modern fitness center with excellent amenities and training
                     equipment. We offer a wide range of classes and exercising programs, tailored to improve stamina and
                     fitness goals of each gym member.</p>
 
@@ -230,81 +230,102 @@
 
 
     <!-- Classes-->
-    <section id="classes" class="container">
-        <div>
-            <h3 class="">Classes</h3>
-        </div>
-        <div class="row">
-            <div class="col">
-                <h4>HIIT</h4>
-                <div class="">
-                    <!-- Text used from https://www.fearlessmotivation.com/2016/09/28/no-time-for-exercise-10-reasons-why-you-should-use-hiit/  -->
-                    <p>Every day we make great efforts at juggling demands from work, family, social obligations,
-                        and being stuck in traffic. High intensity interval training, or HIIT Workout, is a great way to
-                        fit
-                        in a rigorous workout in a short time span and make it fun to boot! It can deliver as good or
-                        better
-                        fitness benefits than steady state cardio (SSC), such as running, but in less time per day and
-                        week.
-                        A HIIT workout is the best fitness value for your time.</p>
+    <div class="container classes-container">
+        <section id="classes" class="container text-center">
+            <div>
+                <h3 class="font-weight-bold">Classes</h3>
+            </div>
+            <div class="row">
+                <div class="col class-title">
+                    <h4>HIIT</h4>
+                    <div class="classes-class">
+                        <!-- Text used from https://www.fearlessmotivation.com/2016/09/28/no-time-for-exercise-10-reasons-why-you-should-use-hiit/  -->
+                        <p>Every day we make great efforts at juggling demands from work, family, social obligations,
+                            and being stuck in traffic. High intensity interval training, or HIIT Workout, is a great
+                            way to
+                            fit
+                            in a rigorous workout in a short time span and make it fun to boot! It can deliver as good
+                            or
+                            better
+                            fitness benefits than steady state cardio (SSC), such as running, but in less time per day
+                            and
+                            week.
+                            A HIIT workout is the best fitness value for your time.</p>
+                    </div>
+                </div>
+                <div class="col class-title">
+                    <h4>Bodypump</h4>
+                    <div class="classes-class">
+                        <!-- Text used from https://www.lesmills.com/clubs-and-facilities/our-workouts/strength/bodypump/  -->
+                        <p>BODYPUMP™ is a barbell workout for anyone looking to get lean, toned and fit – fast.
+                            Using light to moderate weights with lots of repetition, BODYPUMP is a total body workout
+                            that
+                            burns up to 540 calories*. With scientifically proven moves and great, pumping music, it’s a
+                            fantastic and motivating class for instructors to teach.</p>
+                    </div>
+                </div>
+                <div class="col class-title">
+                    <h4>Boxing</h4>
+                    <div class="classes-class">
+                        <!-- Text used from https://www.aclosport.nl/en/sport/fit-boxing/  -->
+                        <p>Boxing is a cardio workout in which multiple elements of training are combined. During this
+                            lesson, we will make use of punching bags and boxing gloves. Multiple hit and punch
+                            combinations
+                            will be treated during this lesson (boxing and kickboxing). During this group lesson, you
+                            will
+                            work
+                            individually or in pairs to train your condition and endurance, and work on muscle
+                            strengthening
+                            exercises like pushups and sit-ups. Short and dynamic movements will raise your heartbeat
+                            and
+                            respiration in rapid speed! Are you ready to sweat and burn calories?</p>
+                    </div>
+                </div>
+                <div class="col class-title">
+                    <h4>Spinning</h4>
+                    <div class="classes-class">
+                        <!-- Text used from https://www.aclosport.nl/en/sport/spinning/  -->
+                        <p>A challenging, stimulating and fun training: spinning is all of this and more. You are
+                            challenged
+                            to extend your boundaries, to go much further than you thought you could. It is a training
+                            at
+                            every level, as you can determine the intensity by adjusting the resistance of your bike.
+                            Music
+                            will guide you through this hour, with fun on top of our priority list. It is recommended to
+                            bring a towel and a water bottle.</p>
+                    </div>
+                </div>
+                <div class="col class-title">
+                    <h4>Pilates</h4>
+                    <div class="classes-class">
+                        <!-- Text used from https://www.bodyvita.nl/en/  -->
+                        <p>Pilates is an innovative and safe way of movement and provides exercises for body and mind.
+                            Pilates was born from the movement principles of Joseph Pilates and can completely transform
+                            the
+                            way your body looks and functions. The goal of Pilates is not only to move but also to
+                            strengthen the connection between body and mind and therefore Pilates will not only make you
+                            feel fitter but also mentally stronger.</p>
+                    </div>
+                </div>
+                <div class="col class-title">
+                    <h4>Yoga</h4>
+                    <div class="classes-class">
+                        <!-- Text used from https://www.nytimes.com/guides/well/beginner-yoga  -->
+                        <p>It’s time to roll out your yoga mat and discover the combination of physical and mental
+                            exercises
+                            that for thousands of years have hooked yoga practitioners around the globe. The beauty of
+                            yoga
+                            is
+                            that you don’t have to be a yogi or yogini to reap the benefits. Whether you are young or
+                            old,
+                            overweight or fit, yoga has the power to calm the mind and strengthen the body. Don’t be
+                            intimidated
+                            by yoga terminology, fancy yoga studios and complicated poses. Yoga is for everyone.</p>
+                    </div>
                 </div>
             </div>
-            <div class="col">
-                <h4>Bodypump</h4>
-                <div class="">
-                    <!-- Text used from https://www.lesmills.com/clubs-and-facilities/our-workouts/strength/bodypump/  -->
-                    <p>BODYPUMP™ is a barbell workout for anyone looking to get lean, toned and fit – fast.
-                        Using light to moderate weights with lots of repetition, BODYPUMP is a total body workout that
-                        burns up to 540 calories*. With scientifically proven moves and great, pumping music, it’s a
-                        fantastic and motivating class for instructors to teach.</p>
-                </div>
-            </div>
-            <div class="col">
-                <h4>Boxing</h4>
-                <div class="">
-                    <!-- Text used from https://www.aclosport.nl/en/sport/fit-boxing/  -->
-                    <p>Boxing is a cardio workout in which multiple elements of training are combined. During this
-                        lesson, we will make use of punching bags and boxing gloves. Multiple hit and punch combinations
-                        will be treated during this lesson (boxing and kickboxing). During this group lesson, you will
-                        work
-                        individually or in pairs to train your condition and endurance, and work on muscle strengthening
-                        exercises like pushups and sit-ups. Short and dynamic movements will raise your heartbeat and
-                        respiration in rapid speed! Are you ready to sweat and burn calories?</p>
-                </div>
-            </div>
-            <div class="col">
-                <h4>Spinning</h4>
-                <div class="">
-                    <!-- Text used from https://www.aclosport.nl/en/sport/spinning/  -->
-                    <p>A challenging, stimulating and fun training: spinning is all of this and more. You are challenged
-                        to extend your boundaries, to go much further than you thought you could. It is a training at
-                        every level, as you can determine the intensity by adjusting the resistance of your bike. Music
-                        will guide you through this hour, with fun on top of our priority list. It is recommended to
-                        bring a towel and a water bottle.</p>
-                </div>
-            </div>
-            <div class="col">
-                <h4>Pilates</h4>
-                <div class="">
-                    <!-- Text used from https://www.bodyvita.nl/en/  -->
-                    <p>Pilates is an innovative and safe way of movement and provides exercises for body and mind.
-                        Pilates was born from the movement principles of Joseph Pilates and can completely transform the
-                        way your body looks and functions. The goal of Pilates is not only to move but also to
-                        strengthen the connection between body and mind and therefore Pilates will not only make you
-                        feel fitter but also mentally stronger.</p>
-                </div>
-            </div>
-            <div class="col">
-                <h4>Yoga</h4>
-                <!-- Text used from https://www.nytimes.com/guides/well/beginner-yoga  -->
-                <p>It’s time to roll out your yoga mat and discover the combination of physical and mental exercises
-                    that for thousands of years have hooked yoga practitioners around the globe. The beauty of yoga is
-                    that you don’t have to be a yogi or yogini to reap the benefits. Whether you are young or old,
-                    overweight or fit, yoga has the power to calm the mind and strengthen the body. Don’t be intimidated
-                    by yoga terminology, fancy yoga studios and complicated poses. Yoga is for everyone.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </div>
 
     <!-- Schedule -->
     <section id="schedule" class="container">
@@ -313,36 +334,42 @@
 
     <!-- Contact -->
     <!-- Based on https://getbootstrap.com/docs/4.6/components/forms/ -->
-    <section id="contact" class="container ">
-        <div class="container text-center">
-            <h3 class="font-weight-bold ">Contact Form</h3>
-            <p class="contact-form-p">Please get in touch</p>
-            <form id="contact-form">
-                <div class="form-group">
-                    <label for="name" class="col-8 d-inline-block" aria-describedby="full name">Full Name</label>
-                    <input class="col-8 form-input" type="text" id="name" name="name" placeholder="- Full Name -">
-                </div>
-                <div class="form-group">
-                    <label for="tel" class="col-8 d-inline-block" aria-describedby="Telephone">Telephone Number</label>
-                    <input class="col-8 form-input" type="tel" id="tel" name="tel" placeholder="- Phone Number -">
-                </div>
-                <div class="form-group">
-                    <label for="email" class="col-8 d-inline-block" aria-describedby="emailHelp">Email Address</label>
-                    <input class="col-8 form-input" type="email" id="email" name="email"
-                        placeholder="- Email Address -">
-                </div>
-                <div class="form-group">
-                    <label for="info" class="col-8 d-inline-block" aria-describedby="input message">Your Message</label>
-                    <textarea class="col-8 form-input" name="info" id="info"
-                        placeholder="- Write your message here. -"></textarea>
-                    <p class="text-muted-form contact-form-p"><small id="info" class="form-text text-muted">We'll never
-                            share your personal details with anyone
-                            else.</small></p>
-                </div>
-                <button type="Submit" value="Submit" class="btn-slide-red" id="btn-contact">Submit</button>
-            </form>
-        </div>
-    </section>
+    <div class="container contact-container">
+        <section id="contact" class="container ">
+            <div class="container text-center">
+                <h3 class="font-weight-bold ">Contact Form</h3>
+                <p class="contact-form-p">Please get in touch</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="col-8 d-inline-block" aria-describedby="full name">Full Name</label>
+                        <input class="col-8 form-input" type="text" id="name" name="name" placeholder="- Full Name -">
+                    </div>
+                    <div class="form-group">
+                        <label for="tel" class="col-8 d-inline-block" aria-describedby="Telephone">Telephone
+                            Number</label>
+                        <input class="col-8 form-input" type="tel" id="tel" name="tel" placeholder="- Phone Number -">
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="col-8 d-inline-block" aria-describedby="emailHelp">Email
+                            Address</label>
+                        <input class="col-8 form-input" type="email" id="email" name="email"
+                            placeholder="- Email Address -">
+                    </div>
+                    <div class="form-group">
+                        <label for="info" class="col-8 d-inline-block" aria-describedby="input message">Your
+                            Message</label>
+                        <textarea class="col-8 form-input" name="info" id="info"
+                            placeholder="- Write your message here. -"></textarea>
+                        <p class="text-muted-form contact-form-p"><small id="info" class="form-text text-muted">We'll
+                                never
+                                share your personal details with anyone
+                                else.</small></p>
+                    </div>
+                    <button type="Submit" value="Submit" class="btn-slide-red" id="btn-contact">Submit</button>
+                </form>
+            </div>
+        </section>
+    </div>
 
     <!-- Sign in Modal -->
     <div class="modal fade" id="signin-modal" tabindex="-1" aria-labelledby="signin-modal" aria-hidden="true">
