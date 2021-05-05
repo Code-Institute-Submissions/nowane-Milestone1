@@ -10,7 +10,7 @@
   background: #FFF;
   padding: 3px 6px;
   margin: 3px;
-  border: 3px solid #b51435;
+  border: 3px solid #28a745;;
   font-weight: bold;
   border-radius: 1px;
   display: inline-block;
@@ -26,7 +26,7 @@
   color: #fff;
 }
 
-.btn-login-modal {
+.btn-signin-modal {
   padding: 3px 15px !important;
 }
 
@@ -48,11 +48,23 @@
   text-align: center;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign in modal */
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign IN modal */
+.modal-signin {
+  text-align: center;
+}
 
-/* Found the solution to the modal not opening here: https://qawithexperts.com/questions/209/bootstrap-modal-appearing-below-back-drop-in-background-why */ 
-.modal-backdrop {
-  z-index: -1;
+#signin-modal ::placeholder {
+  text-align: center;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign UP modal */
+
+.modal-signup {
+  text-align: center;
+}
+
+#signup-modal ::placeholder {
+  text-align: center;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
@@ -174,6 +186,8 @@
 .classes-class {
   margin-top: 50px;
 }
+
+
 
 #classes {}
 

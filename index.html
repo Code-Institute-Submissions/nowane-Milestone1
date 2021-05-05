@@ -71,7 +71,8 @@
                             <section class="callout jumbotron opaque border border-white">
                                 <h1 class="jumbotron-header">Join us!</h1>
                                 <p class="lead">Sign up now to get one month free!</p>
-                                <p><button class="btn-slide-red btn-signup-modal" data-toggle="modal" data-target="#signup-modal">Sign
+                                <p><button class="btn-slide-red btn-signup-modal" data-toggle="modal"
+                                        data-target="#signup-modal">Sign
                                         Up!</button></p>
                             </section>
                         </div>
@@ -365,17 +366,17 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="signin-modal">Sign in</h3>
+                    <h3 class="modal-signin col-12" id="signin-modal">Sign in</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form class="text-center">
                         <div class="form-group">
                             <label for="email">Email address</label>
                             <input type="email" class="form-control" id="email" aria-describedby="email-help"
-                                placeholder="Email Address" required>
+                                placeholder="Enter Email Address Here" required>
                             <small id="email-help" class="form-text text-muted">We'll never share your email
                                 with
                                 anyone else.</small>
@@ -383,18 +384,19 @@
                         <div class="form-group">
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" aria-describedby="Password"
-                                placeholder="Password" required>
+                                placeholder="Enter Password Here" required>
                         </div>
                         <div class="form-group">
                             <label for="repeat-password">Repeat Password</label>
                             <input type="password" class="form-control" id="repeat-password"
-                                placeholder="Repeat Password" required>
+                                placeholder="Enter Repeat Password" required>
                         </div>
                         <div class="form-group form-check">
                             <input type="checkbox" checked="checked" class="form-check-input" id="modal-checkbox">
-                            <label class="form-check-label" for="modal-checkbox">Remember me</label>
+                            <label class="form-check-label" for="modal-checkbox">Remember Me</label>
                         </div>
-                        <button type="submit" class="btn-slide-red">Submit</button>
+                        <button type="submit" class="btn-slide-red">Enter</button>
+                        <div>Not yet a member? Sign up <a href="#">here</a></div>
                     </form>
                 </div>
             </div>
@@ -409,47 +411,46 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h3 class="modal-title" id="signup-modal">Sign Up Form</h3>
+                    <h3 class="modal-signup col-12" id="signup-modal">Sign Up Form</h3>
                     <button type="button" class="close" data-dismiss="modal" aria-label="close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form class="text-center">
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Email" required>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email Here" required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputPassword4">Password</label>
-                                <input type="password" class="form-control" id="inputPassword4" placeholder="Password" required>
+                                <input type="password" class="form-control" id="inputPassword4" placeholder="Enter Password Here"
+                                    required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" required>
+                            <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address Here (example: 1234 Main St)"
+                                required>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress2">Address 2</label>
                             <input type="text" class="form-control" id="inputAddress2"
-                                placeholder="Apartment, studio, or floor (Optional)">
+                                placeholder="Apartment, Studio, or Floor (Optional)">
                         </div>
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity" required>
+                                <input type="text" class="form-control" id="inputCity" placeholder="Enter City Name Here" required>
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="inputState">State</label>
-                                <select id="inputState" class="form-control" required>
-                                    <option selected>Choose...</option>
-                                    <option>...</option>
-                                </select>
+                                <input type="text" class="form-control" id="inputState" placeholder="Enter State Here" required>>
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="inputZip">Zip</label>
-                                <input type="text" class="form-control" id="inputZip" required>
+                                <input type="text" class="form-control" id="inputZip" placeholder="ZIP Code" required>
                             </div>
                         </div>
                         <div class="form-group">
@@ -460,7 +461,7 @@
                                 </label>
                             </div>
                         </div>
-                        <button type="submit" class="btn-slide-red btn-signup-modal">Sign Up</button>
+                        <button type="submit" class="btn-slide-red btn-signup-modal">Sign Up!</button>
                     </form>
                 </div>
             </div>
