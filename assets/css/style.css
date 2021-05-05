@@ -92,22 +92,32 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Callout  */
 
-.callout-container {
-  height: 85vh;
-  display: flex;
+.container-center{
   justify-content: center;
-  position: absolute;
-}
-
-.callout-position {
-  position: relative;
-  align-self: flex-end;
-}
-
-.opaque {
-  background-color: rgba(0, 0, 0, 0.5);
-}
-
+  }
+  
+  .callout {;
+    padding: 32px;
+  }
+  
+  .callout-container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-left: -1em;
+  }
+  
+  .callout-position {
+    position: relative;
+    align-self: flex-end;
+  }
+  
+  .opaque {
+    background-color: rgba(0, 0, 0, 0);
+    color: #FFF
+  }
+  
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About us */
 
 #about-us{}
