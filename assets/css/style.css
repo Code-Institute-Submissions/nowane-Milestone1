@@ -42,6 +42,13 @@
   text-align: center;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign in modal */
+
+/* Found the solution to the modal not opening here: https://qawithexperts.com/questions/209/bootstrap-modal-appearing-below-back-drop-in-background-why */ 
+.modal-backdrop {
+  z-index: -1;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
 
 .icon-bar {
@@ -84,6 +91,17 @@
 
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Callout  */
+
+.callout-container {
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.opaque {
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 
 
