@@ -18,11 +18,11 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar" data-offset="0">
     <header>
         <!-- Navigation bar -->
         <!-- Based on https://www.youtube.com/watch?v=23bpce-5s8I  and customized/expanded further -->
-        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <nav  id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
             <a href="#Home" class="navbar-brand">ze Gym</a>
             <!-- Navigation toggle-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" type="button"
@@ -39,10 +39,10 @@
                         <a href="#aboutus" class="nav-link">About us</a>
                     </li>
                     <li class="nav-item" data-toggle="collapse">
-                        <a href="#testimonials" class="nav-link">Classes</a>
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
                     </li>
                     <li class="nav-item" data-toggle="collapse">
-                        <a href="#timetable" class="nav-link">Schedule</a>
+                        <a href="#classes" class="nav-link">Classes</a>
                     </li>
                     <li class="nav-item" data-toggle="collapse">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -60,11 +60,11 @@
     <!--  http://bit.ly/3qSMcbN Used as a guideline for CSS positioning -->
     <section id="home">
         <div id="section-hero-image">
-            <div class="hero-text text-center">
-                <h2>Dream Big!</h2>
-            </div>
             <!-- Callout -->
             <div class="container container-center text-center">
+                <div>
+                    <h2 class="dream-big-header jumbotron">DREAM BIG</h2>
+                </div>
                 <div class="container callout-container">
                     <div class="row callout-position">
                         <div class="col-12">
