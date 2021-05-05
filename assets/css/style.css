@@ -3,25 +3,31 @@
   text-align: right;
 }
 
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Button */
+
 .btn-slide-red {
-  color: #28a745;
+  color: #b51435;
   background: #FFF;
   padding: 3px 6px;
   margin: 3px;
-  border: 3px solid #28a745;
+  border: 3px solid #b51435;
   font-weight: bold;
   border-radius: 1px;
   display: inline-block;
   text-align: center;
-  box-shadow: inset 0 0 0 0 #28a745;
-  -webkit-transition: all ease 0.8s;
-  -moz-transition: all ease 0.8s;
-  transition: all ease 0.8s;
+  box-shadow: inset 0 0 0 0 #b51435;
+  -webkit-transition: all ease 1.2s;
+  -moz-transition: all ease 1.2;
+  transition: all ease 1.2;
 }
 
 .btn-slide-red:hover {
   box-shadow: inset 170px 0 0 0 #28a745;
   color: #fff;
+}
+
+.btn-login-modal {
+  padding: 3px 15px !important;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Home screen / Hero image */
@@ -75,12 +81,12 @@
 }
 
 .facebook {
-  background: #3B5998;
+  background: #4267B2;
   color: white;
 }
 
 .instagram {
-  background: #E1306C;
+  background: #8a3ab9;
   color: white;
 }
 
