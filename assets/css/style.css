@@ -49,21 +49,21 @@
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Callout */
-
 .row-height {
   height: 33vh;
   justify-content: center;
 }
 
 .row-height-dream {
-  height: 8.3vh;
+  height: 11vh;
   color: #FFF;
-  font-size: 3.5rem;
+  font-size: 5rem;
   justify-content: center;
 }
 
 .big-size {
-  letter-spacing: 2rem;
+  font-size: 6rem;
+  letter-spacing: 1rem;
 }
 
 .callout-smaller {
@@ -236,6 +236,29 @@
   padding: 10px;
 }
 
-
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
+
+.footer-container {
+  background-color: #94001e;
+  font-size: ;
+  color: #FFF;
+  padding: 25px;
+}
+
+
+
+.logo {
+  background: url("../images/logo/logo-small.png")  no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  max-width: 80%;
+}
+
+.location {
+  text-align: right;
+}
