@@ -50,6 +50,10 @@
   justify-content: center;
 }
 
+.row-height-smaller{
+  height: 25vh;
+}
+
 .row-height-dream {
   height: 11.5vh;
   color: #FFF;
