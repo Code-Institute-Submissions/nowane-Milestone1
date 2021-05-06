@@ -245,14 +245,17 @@
   padding: 25px;
 }
 
-
+.opening {
+  text-align: left;
+}
 
 .logo {
   background: url("../images/logo/logo-small.png")  no-repeat center center;
   position: relative;
-
+  text-align: center;
 }
 
 .location {
   text-align: right;
+  align-items: flex-end;
 }
