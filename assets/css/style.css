@@ -97,6 +97,9 @@
   text-align: center;
 }
 
+.text-muted-signin {
+  margin: 10px 0px;}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign UP modal */
 
 .modal-signup {
