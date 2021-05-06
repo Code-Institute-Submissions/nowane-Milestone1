@@ -83,28 +83,6 @@
   margin: 25px;
 }
 
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign IN modal */
-.modal-signin {
-  text-align: center;
-}
-
-#signin-modal ::placeholder {
-  text-align: center;
-}
-
-.text-muted-signin {
-  margin: 10px 0px;}
-
-/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign UP modal */
-
-.modal-signup {
-  text-align: center;
-}
-
-#signup-modal ::placeholder {
-  text-align: center;
-}
-
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
 
 .icon-bar {
@@ -234,6 +212,28 @@
 
 .text-muted-form {
   padding: 10px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign IN modal */
+.modal-signin {
+  text-align: center;
+}
+
+#signin-modal ::placeholder {
+  text-align: center;
+}
+
+.text-muted-signin {
+  margin: 10px 0px;}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sign UP modal */
+
+.modal-signup {
+  text-align: center;
+}
+
+#signup-modal ::placeholder {
+  text-align: center;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Footer  */
