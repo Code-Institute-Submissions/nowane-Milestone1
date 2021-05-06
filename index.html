@@ -329,7 +329,7 @@
 
     <!-- Timetable -->
     <!-- Based on https://getbootstrap.com/docs/4.0/content/tables/  -->
-    <div class="container schedule-container">
+    <div class="container schedule-container d-none d-lg-block">
         <section id="timetable" class="container">
             <div>
                 <div>
@@ -565,52 +565,56 @@
             </div>
         </div>
     </div>
-    <footer>
-        <div class="container footer-container">
+    <footer id="footer">
+        <div class="container-fluid footer-container">
             <section id="footer">
                 <div class="row">
                     <div class="col-4">
                         <table>
-                            <tr>
+                            <tr class="text-center">
                                 <th class="opening">Monday</th>
                                 <td>6am - 10pm</td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <th class="opening">Tuesday</th>
                                 <td>6am - 10pm</td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <th class="opening">Wednesday</th>
                                 <td>6am - 10pm</td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <th class="opening">Thursday</th>
                                 <td>6am - 10pm</td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <th class="opening">Friday</th>
                                 <td>6am - 10pm</td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <th class="opening">Saturday</th>
                                 <td>6am - 10pm</td>
                             </tr>
-                            <tr>
+                            <tr class="text-center">
                                 <th class="opening">Sunday</th>
                                 <td>6am - 10pm</td>
                             </tr>
                         </table>
                     </div>
-                    <div class="col-4 d-none d-md-block">
-
+                        <div class="col-4 logo "></div>
+                        <div class="col-4">
+                            <address class="location text-center">
+                                Hoofdweg 1555<br>
+                                1055 AB<br>
+                                Amsterdam<br>
+                                Noord-Holland<br>
+                                The Netherlands<br>
+                             </address>
+                        </div>
                     </div>
-                    <div class="col-4">
-
-                    </div>
-                </div>
-            </section>
-        </div>
-    </footer>
+                </section>
+            </div>
+        </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
