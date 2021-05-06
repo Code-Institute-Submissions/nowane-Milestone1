@@ -22,44 +22,45 @@
     <header>
         <!-- Navigation bar -->
         <!-- Based on https://www.youtube.com/watch?v=23bpce-5s8I  and customized/expanded further -->
-        <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-            <a href="#Home" class="navbar-brand">ze Gym</a>
-            <!-- Navigation toggle-->
-            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" type="button"
-                aria-controls="navbar-menu" aria-expanded="false" aria-label="toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar-menu">
-                <!-- Navigation menu items-->
-                <ul class="navbar-nav mx-auto">
-                    <li class="nav-item" data-toggle="collapse">
-                        <a href="#home" class="nav-link">Home</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse">
-                        <a href="#aboutus" class="nav-link">About us</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse">
-                        <a href="#testimonials" class="nav-link">Testimonials</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse">
-                        <a href="#classes" class="nav-link">Classes</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse">
-                        <a href="#contact" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- Button based on https://jsfiddle.net/shuvamallick/3o0h5oka/  but completely customized-->
-            <!-- Trigger/Open Sign in Modal  ||  Placed above footer -->
-            <button type="button" class="btn-slide-red btn-signin-modal" data-toggle="modal"
-                data-target="#signin-modal">Sign in</button>
-        </nav>
+        <div class="container-fluid navbar-container">
+            <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+                <a href="#home" class="navbar-brand">ze Gym</a>
+                <!-- Navigation toggle-->
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" type="button"
+                    aria-controls="navbar-menu" aria-expanded="false" aria-label="toggle-navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbar-menu">
+                    <!-- Navigation menu items-->
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item" data-toggle="collapse">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse">
+                            <a href="#aboutus" class="nav-link">About us</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse">
+                            <a href="#testimonials" class="nav-link">Testimonials</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse">
+                            <a href="#classes" class="nav-link">Classes</a>
+                        </li>
+                        <li class="nav-item" data-toggle="collapse">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Button based on https://jsfiddle.net/shuvamallick/3o0h5oka/  but completely customized-->
+                <!-- Trigger/Open Sign in Modal  ||  Placed above footer -->
+                <button type="button" class="btn-slide-red btn-signin-modal" data-toggle="modal"
+                    data-target="#signin-modal">Sign in</button>
+            </nav>
+        </div>
     </header>
 
     <!-- http://bit.ly/3qSMcbN Used as a guideline for CSS positioning -->
-   <!-- http://bit.ly/3qSMcbN Used as a guideline for CSS positioning -->
     <!-- Hero image -->
-    <div class="container-fluid callout-container">
+    <div id="home" class="container-fluid callout-container">
         <!-- Callout -->
         <div class="row">
             <div class="col-4"></div>
@@ -78,9 +79,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 text-center">
-                <div class="row row-height-dream"></div>
-                <div class="row row-height-dream"></div>
+            <div class="col-4">
                 <div class="row row-height-dream"></div>
                 <div class="row row-height-dream">D</div>
                 <div class="row row-height-dream">R</div>
@@ -89,13 +88,11 @@
                 <div class="row row-height-dream">M</div>
                 <div class="row row-height-dream"></div>
                 <div class="row row-height-dream big-size">BIG</div>
-                <div class="col row-height-dream"></div>
-                <div class="row row-height-dream"></div>
-                <div class="row row-height-dream"></div>
+
             </div>
         </div>
     </div>
-    
+
     <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
     <div class="icon-bar">
         <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i
@@ -493,7 +490,8 @@
                             <label class="form-check-label" for="modal-checkbox">Remember Me</label>
                         </div>
                         <button type="submit" class="btn-slide-red">Enter</button>
-                        <p class="text-muted-signin"><small>Not yet a member? Sign up and click the "Join Us" button just below this pop-up!</small></p>
+                        <p class="text-muted-signin"><small>Not yet a member? Sign up and click the "Join Us" button
+                                just below this pop-up!</small></p>
                     </form>
                 </div>
             </div>
