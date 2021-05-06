@@ -87,40 +87,41 @@
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
 
-.icon-bar {
-  position: fixed;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+.social-buttons-side {
+  position: fixed !important;
+	z-index: 10000;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
-.icon-bar a {
+.social-buttons-side a {
   display: block;
   text-align: center;
   padding: 14px;
   transition: all 0.5s ease;
   color: white;
-  font-size: 1.4rem;
+  font-size: 1rem;
   border-radius: 50%;
-  margin-left: 5px;
+
 }
 
-.icon-bar a:hover {
+.social-buttons-side a:hover {
   background-color: #000;
 }
 
-.facebook {
+#facebook-side {
   background: #4267B2;
   color: white;
 }
 
-.instagram {
+#instagram-side {
   background: #8a3ab9;
   color: white;
 }
 
-.youtube {
+#youtube-side {
   background: #bb0000;
   color: white;
 }
@@ -261,4 +262,40 @@
 .location {
   text-align: right;
   align-items: flex-end;
+}
+
+.social-buttons-footer a {
+  display: block;
+  text-align: center;
+  padding: 14px;
+  transition: all 0.5s ease;
+  color: white;
+  font-size: 4rem;
+  border-radius: 50%;
+  width: 30x;
+  height: 30px;
+  background: ;
+  margin ;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-buttons-footer a:hover {
+  background-color: #000;
+}
+
+#facebook-footer {
+  background: #4267B2;
+  color: white;
+}
+
+#instagram-footer {
+  background: #8a3ab9;
+  color: white;
+}
+
+#youtube-footer {
+  background: #bb0000;
+  color: white;
 }

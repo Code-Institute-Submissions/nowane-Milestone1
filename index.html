@@ -94,12 +94,12 @@
     </div>
 
     <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
-    <div class="icon-bar d-none d-sm-block">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i
+    <div class="social-buttons-side d-none d-sm-block">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener" class="sr-only" id="facebook-side"><i
                 class="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i
+        <a href="https://www.instagram.com" target="_blank" rel="noopener" class="sr-only" id="instagram-side"><i
                 class="fab fa-instagram-square"></i></a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="youtube"><i
+        <a href="https://www.youtube.com" target="_blank" rel="noopener" class="sr-only" id="youtube-side"><i
                 class="fab fa-youtube-square"></i></a>
     </div>
 
@@ -112,7 +112,8 @@
                     equipment. We offer a wide range of classes and exercising programs, tailored to improve stamina and
                     fitness goals of each gym member.</p>
 
-                <p> We aim to create a system in which everyone is respected and to provide a unique and enjoyable
+                <p class="aboutus-p"> We aim to create a system in which everyone is respected and to provide a unique
+                    and enjoyable
                     environment
                     in which everyone feels comfortable. ze Gym strives to enable everyone to be the best version of
                     themselves. From the staff to the clients involved in the gym it is all about working for the
@@ -601,20 +602,29 @@
                             </tr>
                         </table>
                     </div>
-                        <div class="col-2 logo d-none d-md-block"></div>
-                        <div class="col-5 location">
-                            <address>
-                                Hoofdweg 1555<br>
-                                1055 AB<br>
-                                Amsterdam<br>
-                                Noord-Holland<br>
-                                The Netherlands<br>
-                             </address>
-                        </div>
+                    <div class="col-2 logo d-none d-md-block">
+                  <!--    <div class="social-buttons social-button-footer">
+                            <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i
+                                    class="fab fa-facebook-square"><span class="sr-only" id="facebook-footer">Facebook</span></i></a>
+                            <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i
+                                    class="fab fa-instagram-square"><span class="sr-only" id="instagram-footer">Instagram</span></i></a>
+                            <a href="https://twitter.com/" target="_blank" rel="noopener"><i
+                                    class="fab fa-youtube-square"><span class="sr-only" id="youtube-footer">Youtube</span></i></a>
+                        </div>--> 
                     </div>
-                </section>
-            </div>
-        </footer>
+                    <div class="col-5 location">
+                        <address>
+                            Hoofdweg 1555<br>
+                            1055 AB<br>
+                            Amsterdam<br>
+                            Noord-Holland<br>
+                            The Netherlands<br>
+                        </address>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
