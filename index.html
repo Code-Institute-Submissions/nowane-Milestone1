@@ -22,7 +22,7 @@
     <header>
         <!-- Navigation bar -->
         <!-- Based on https://www.youtube.com/watch?v=23bpce-5s8I  and customized/expanded further -->
-        <nav  id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <nav id="navbar" class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
             <a href="#Home" class="navbar-brand">ze Gym</a>
             <!-- Navigation toggle-->
             <button class="navbar-toggler" data-toggle="collapse" data-target="#navbar-menu" type="button"
@@ -56,40 +56,34 @@
         </nav>
     </header>
 
-    <!-- Hero image -->
-    <!--  http://bit.ly/3qSMcbN Used as a guideline for CSS positioning -->
-    <section id="home">
-        <div id="section-hero-image">
-            <!-- Callout -->
-            <div class="container container-center text-center">
-                <div>
-                    <h2 class="dream-big-header jumbotron">DREAM BIG</h2>
-                </div>
-                <div class="container callout-container">
-                    <div class="row callout-position">
-                        <div class="col-12">
-                            <section class="callout jumbotron opaque border border-white">
-                                <h1 class="jumbotron-header">Join us!</h1>
-                                <p class="lead">Sign up now to get one month free!</p>
-                                <p><button class="btn-slide-red btn-signup-modal" data-toggle="modal"
-                                        data-target="#signup-modal">Sign
-                                        Up!</button></p>
-                            </section>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
-            <div class="icon-bar">
-                <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i
-                        class="fab fa-facebook-square"></i></a>
-                <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i
-                        class="fab fa-instagram-square"></i></a>
-                <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="youtube"><i
-                        class="fab fa-youtube-square"></i></a>
+    <!-- http://bit.ly/3qSMcbN Used as a guideline for CSS positioning -->
+    <!-- Based on Code Institute's Whiskey Drop project
+    https://learn.codeinstitute.net/courses/course-v1:codeinstitute+FE+2017_T3/courseware/a4b90d17e5c94220a0f83f00ce7fa606/2aca2c94a518427495cc1b4bc641ccbf/?child=first -->
+         <!-- Hero image -->
+    <div class="container-fluid callout-container">
+        <!-- Callout -->
+        <div class="row">
+            <div class="col-12">
+                <section class="callout text-center">
+                    <h1 class="h1header font-weight-bold">DREAM BIG</h1>
+                    <hr class="callout-devider">
+                    <h2 class="h2header font-weight-bold">Join us!</h2>
+                    <p class="p-header">Sign up now to get one month free!</p>
+                    <p><button class="btn-slide-red btn-signup-modal" data-toggle="modal"
+                            data-target="#signup-modal">Sign Up!</button></p>
+                </section>
             </div>
         </div>
-    </section>
+    </div>
+    <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
+    <div class="icon-bar">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="facebook"><i
+                class="fab fa-facebook-square"></i></a>
+        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" class="instagram"><i
+                class="fab fa-instagram-square"></i></a>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer" class="youtube"><i
+                class="fab fa-youtube-square"></i></a>
+    </div>
 
     <!-- About us -->
     <div class="container aboutus-container">
@@ -505,18 +499,19 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputEmail4">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email Here" required>
+                                <input type="email" class="form-control" id="inputEmail4" placeholder="Enter Email Here"
+                                    required>
                             </div>
                             <div class="form-group col-md-6">
                                 <label for="inputPassword4">Password</label>
-                                <input type="password" class="form-control" id="inputPassword4" placeholder="Enter Password Here"
-                                    required>
+                                <input type="password" class="form-control" id="inputPassword4"
+                                    placeholder="Enter Password Here" required>
                             </div>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress">Address</label>
-                            <input type="text" class="form-control" id="inputAddress" placeholder="Enter Address Here (example: 1234 Main St)"
-                                required>
+                            <input type="text" class="form-control" id="inputAddress"
+                                placeholder="Enter Address Here (example: 1234 Main St)" required>
                         </div>
                         <div class="form-group">
                             <label for="inputAddress2">Address 2</label>
@@ -526,11 +521,13 @@
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="inputCity">City</label>
-                                <input type="text" class="form-control" id="inputCity" placeholder="Enter City Name Here" required>
+                                <input type="text" class="form-control" id="inputCity"
+                                    placeholder="Enter City Name Here" required>
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="inputState">State</label>
-                                <input type="text" class="form-control" id="inputState" placeholder="Enter State Here" required>>
+                                <input type="text" class="form-control" id="inputState" placeholder="Enter State Here"
+                                    required>>
                             </div>
                             <div class="form-group col-md-2">
                                 <label for="inputZip">Zip</label>
