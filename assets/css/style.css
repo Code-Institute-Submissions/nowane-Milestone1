@@ -249,14 +249,8 @@
 
 .logo {
   background: url("../images/logo/logo-small.png")  no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   position: relative;
-  align-items: center;
-  justify-content: center;
-  max-width: 80%;
+
 }
 
 .location {
