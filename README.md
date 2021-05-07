@@ -120,7 +120,7 @@
 >
 >  This is the palette of colors used, which was matched by [coolors](https://coolors.co/) 
 >
-> [schema]("assets/images/color-schema.png")
+> [schema](assets/images/color-schema.png)
 
  [Back to Table of Content](#Table-of-Content)
 
