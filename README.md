@@ -20,7 +20,7 @@
 >    * [Returning Visitor Goals](#Returning-Visitor-Goals)
 >    * [Frequent User Goals](#Frequent-User-Goals)
 > * [Design](#Design)
->    * [Colour Scheme](#Colour-Scheme)
+>    * [Colour Scheme](#Colour-Schema)
 >    * [Typography](#Typography)
 >    * [Imagery](#Imagery)
 > * [Wireframes](#Wireframes)
@@ -62,7 +62,7 @@
 
 ---
 
-### **User Experience (UX)**
+### **User Experience -UX-**
 
 > #### **User stories**
 >
@@ -181,8 +181,8 @@
 >    #### **Integrations**
 >
 > * [Bootstrap](https://getbootstrap.com/) - Used for core structuring the layout of the website, ensuring mobile-first design and responsive size display.
-> * [Google Fonts](https://fonts.google.com/) - will be used, specificity later ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-> * [Font Awesome](https://fontawesome.com/) - will be used, specificity later ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+> * [Google Fonts](https://fonts.google.com/) - Used fonts are 'Roboto' ('sans-serif' as backup font) for normal text, with 'Abril Fatface' ('serif' as backop font) for bold headers.
+> * [Font Awesome](https://fontawesome.com/) - Used icons for the sign-in form, the classes sections, and the social links.
 >
 >    #### **Workspace- version control and repository storage**
 >
@@ -202,7 +202,8 @@
 > * [Favicon Generator](https://www.favicon-generator.org/) - Used to create a favicon.
 > * [MS PAINT](https://support.microsoft.com/nl-nl/windows/microsoft-paint-downloaden-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) - Used to resize the original image for the favicon
 > * [Namecheap](https://www.namecheap.com/logo-maker/app/) - Used to create the website logo and the favicon image.
-> > [Mockup](http://ami.responsivedesign.is/)
+> * [Mockup](http://ami.responsivedesign.is/)
+> * [Slack](#https://slack.com/intl/en-nl/) - Used to look op answers to all sorts of questions.
 
   [Back to Table of Content](#Table-of-Content)
 
@@ -255,7 +256,7 @@
 
 > Deploying to GitHub Pages:
 > 
-> * Sign In to GitHub
+> * Sign in to GitHub.
 > * Insert the name of the repository in the search bar: nowane/Milestone1 .
 > * Click on the repository to view more details.
 > * Click on settings, which is located in the row above the green Gitpod button.
