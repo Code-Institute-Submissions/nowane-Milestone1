@@ -81,7 +81,7 @@ nav {
 .row-height-dream {
   height: 9.1vh;
   color: #FFF;
-  font-size: 5rem;
+  font-size: 3.8rem;
   justify-content: center;
 }
 
@@ -100,6 +100,10 @@ nav {
 .p-header {
   color: #FFF;
   margin: 10px;
+}
+
+#home .row .dream-big {
+  font-family: 'Abril Fatface', serif;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
@@ -155,7 +159,8 @@ nav {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Testimonials */
 
-.testimonial {
+.head-testimonials {
+  margin-bottom: 40px;
 }
 
 #testimonials {
@@ -174,12 +179,12 @@ nav {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Classes */
 
-.classes-container {
-
+.head-classes {
+  margin-bottom: 40px;
 }
 
 .class-title {
-
+  margin-bottom: 20px;
 }
 
 .classes-class {
@@ -189,7 +194,8 @@ nav {
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Timetable */
 
-.schedule-container {
+.head-timetable {
+  margin-bottom: 40px;
 }
 
 .timetable-classes {
@@ -202,8 +208,8 @@ nav {
 
 #contact .contact-form-p {
   font-style: italic;
-  padding-top: 20px;
-  padding-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 ::placeholder {
