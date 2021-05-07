@@ -31,11 +31,11 @@
 >
 >   * Google Lighthouse - Desktop
 >
-> [ighthouseDestop1](assets/images/testing-images/lighthouse/lighthousedesktop1.png)
-> [ighthouseDestop2](assets/images/testing-images/lighthouse/lighthousedesktop2.png)
-> [ighthouseDestop3](assets/images/testing-images/lighthouse/lighthousedesktop3.png)
-> [ighthouseDestop4](assets/images/testing-images/lighthouse/lighthousedesktop4.png)
-> [ighthouseDestop5](assets/images/testing-images/lighthouse/lighthousemobile1.png)
+> ![lighthouseDestop1](assets/images/testing-images/lighthouse/lighthousedesktop1.png)
+> ![lighthouseDestop2](assets/images/testing-images/lighthouse/lighthousedesktop2.png)
+> ![lighthouseDestop3](assets/images/testing-images/lighthouse/lighthousedesktop3.png)
+> ![lighthouseDestop4](assets/images/testing-images/lighthouse/lighthousedesktop4.png)
+> ![lighthouseDestop5](assets/images/testing-images/lighthouse/lighthousemobile1.png)
 >
 >   * Google Lighthouse - Mobile
 >
