@@ -89,9 +89,18 @@
    ### **Design**
 
 >  -  #### **Colour Scheme**
->
 >  
-> 
+> The following are the colours used for this project, based on a schematic provided by [Coolors](https://coolors.co/) /
+>
+>  * Yellow: Joy, happiness, optimoism and sunshine.
+>  * Red: Excitement, energy, passion, love, desire, speed, strength and power.
+>  * Green: Healthy, good luck, renewal and youth.
+>  * White: Simplicity, cleanliness, peace, precision, innocence, youth and good
+>  * Black: Power, sophistication, formality, elegance, unhappiness and style,
+>
+> [Color Schema]("assets/images/color-schem.png")
+>
+>
 >  -  #### **Typography**
 >
 >  * [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) - Used for a pretty and clear overall type of letter.
@@ -125,7 +134,7 @@
 > * Inspirational hero image.
 > * A (for now cosmetic) Sign In button to easily enter the website as a member.
 > * For non-members just below the opened Sign In form, or clearly centered in the hero-image section, there is a (for now cosmetic) Sign Up button to easily be able to sign up.
-> * Clickable logo in the left top-conter which will take the user back to the top.
+> * Clickable logo in the left top-corner of the navigation bar which will take the user back to the top from anywhere on the website.
 > * Fixed navigation with scrollspy allows the user to easily navigate and keep track of their position on the website.
 > * Fixed socials at larger screens allow the user to quickly have acces to social media links.
 > * An about us section, telling a bit about the gym.
@@ -134,8 +143,8 @@
 > * At larger screens a timetable, which will responsively disappear when the screen-size gets too small.
 > * A responsive contact form.
 > * A Responsive footer containing: 
->  - The opening times
->  - The location of the gym
+>  - The opening times.
+>  - The location of the gym.
 >  - A clickable logo of the gym, returning the user back to the top of the page.
 >
 
@@ -199,7 +208,7 @@
 
 -   ### **Deployment**
 
-> Deplying to GitHub Pages:
+> Deploying to GitHub Pages:
 > 
 > * Sign In to GitHub
 > * Insert the name of the repository in the search bar: nowane/Milestone1 .
