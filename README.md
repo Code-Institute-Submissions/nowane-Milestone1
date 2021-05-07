@@ -1,6 +1,6 @@
 ## **ze Gym | User Centric Front-End Development Milestone Project 1**
 
- * GYM LOGO 
+ > ![ze Gym](assets/images/logo/logo-large.png)
 
 [View the live project here.](https://nowane.github.io/Milestone1/)
 
