@@ -19,6 +19,10 @@ body {
  }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Navigation bar */
+nav {
+  background-color: #94001e;
+}
+
 .nav-item {
   text-align: right;
 }
