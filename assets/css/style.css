@@ -103,7 +103,7 @@ nav {
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
-
+/*
 .social-buttons-side {
   position: fixed !important;
 	z-index: 10000;
@@ -142,7 +142,7 @@ nav {
   background: #bb0000;
   color: white;
 }
-  
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About us */
 
 .aboutus-container {
@@ -254,8 +254,7 @@ nav {
   text-align: left;
 }
 
-.logo {
-  background: url("../images/logo/logo-small.png")  no-repeat center center;
+#logo-footer {
   position: relative;
   text-align: center;
 }
@@ -265,8 +264,8 @@ nav {
   align-items: flex-end;
 }
 
-.social-buttons-footer a {
-  display: block;
+#social-buttons-footer a {
+  display: flex;
   text-align: center;
   padding: 14px;
   transition: all 0.5s ease;
@@ -282,7 +281,7 @@ nav {
   align-items: center;
 }
 
-.social-buttons-footer a:hover {
+#social-buttons-footer a:hover {
   background-color: #000;
 }
 
