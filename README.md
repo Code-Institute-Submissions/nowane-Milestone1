@@ -9,7 +9,7 @@
 
 ### **Mockup**
 
-![Mockup]("assets/docs/wireframes/mockup.png")
+![Mockup](assets/docs/wireframes/mockup.png)
 
 ### **Table of Content**
 
