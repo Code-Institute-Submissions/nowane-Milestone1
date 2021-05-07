@@ -105,10 +105,23 @@
 >
 >  * [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) - Used for a pretty and clear overall type of letter.
 >  * [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface?query=fatfa#standard-styles) - Used for heavy titles with a classy look.
+>
 >  -  #### **Imagery**
 >
-> 
- 
+>  The following colors are used throughout the project:
+>
+>  * Yellow: For joy, happiness, optimism, idealism, imagination, hope and sunshine.
+>  * Red: For excitement, energy, passion, love, speed, strength and power.
+>  * Green: For healthy, good luck, renewal and youth.
+>  * White: For simplicity, cleanliness, peace,  precision and innocence.
+>  * Black: For power, sophistication, formality, elegance,  style and is a good technical color.
+>
+>  This was based on information found here (https://www.incredibleart.org/lessons/middle/color2.htm)
+>
+>  This is the palette of colors used, which was matched by [coolors](https://coolors.co/) 
+>
+> [schema]("assets/images/color-schema.png")
+
  [Back to Table of Content](#Table-of-Content)
 
 ---
