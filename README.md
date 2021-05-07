@@ -51,7 +51,7 @@
 > Facilitate members to give feedback/suggestions | 5 | 5
 > Provide exercise instructions in text or video | 5 | 1
 > Create a newsletter about changes and happenings | 3 | 1
->
+ 
 > [Back to Table of Content](#Table-of-Content)
 
 ---
@@ -80,8 +80,8 @@
 > * As a Frequent User, I want to check to see if there are any (newly added) announcements.
 > * As a Frequent User, I want to check to see if there are any new updates on the lesson schedule.
 > * As a Frequent User, I want to check to see if there are any new photos and media from the clubs activities at social media.
->
->[Back to Table of Content](#Table-of-Content)
+ 
+ [Back to Table of Content](#Table-of-Content)
 
 ---
 
@@ -99,8 +99,8 @@
 >  -  #### **Imagery**
 >
 > 
->
->[Back to Table of Content](#Table-of-Content)
+ 
+ [Back to Table of Content](#Table-of-Content)
 
 ---
 
@@ -114,8 +114,8 @@
 >  * Classes
 >  * Schedule
 >  * Contact
->
->[Back to Table of Content](#Table-of-Content)
+
+  [Back to Table of Content](#Table-of-Content)
 
 ---
 
@@ -175,8 +175,8 @@
 > * [MS PAINT](https://support.microsoft.com/nl-nl/windows/microsoft-paint-downloaden-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) - Used to resize the original image for the favicon
 > * [Namecheap](https://www.namecheap.com/logo-maker/app/) - Used to create the website logo and the favicon image.
 > 
->
-> [Back to Table of Content](#Table-of-Content)
+
+  [Back to Table of Content](#Table-of-Content)
 
 ---
 
@@ -192,20 +192,27 @@
 > -    ##### **Returning Visitor Goals**
 >
 > -    ##### **Frequent User Goals**
->
-> [Back to Table of Content](#Table-of-Content)
+
+  [Back to Table of Content](#Table-of-Content)
 
 ---
 
 -   ### **Deployment**
 
->
->
->
->
->
->
-> [Back to Table of Content](#Table-of-Content)
+> Deplying to GitHub Pages:
+> 
+> * Sign In to GitHub
+> * Insert the name of the repository in the search bar: nowane/Milestone1 .
+> * Click on the repository to view more details.
+> * Click on settings, which is located in the row above the green Gitpod button.
+> * Scroll down to the GitHub Pages section.
+> * Under source, select master in the dropdown menu.
+> * Select /(root) in the tab which is right next to branch.
+> * Click Save (page will automatically refresh).
+> * Scroll down again to the GitHub pages section.
+> * A container with a blue blackground will tell you: "Your site is ready to be published at https://nowane.github.io/Milestone1/ "
+
+  [Back to Table of Content](#Table-of-Content)
 
 ---
 
@@ -225,7 +232,7 @@
 >
 >
 >
->
-> [Back to Table of Content](#Table-of-Content)
+
+  [Back to Table of Content](#Table-of-Content)
 
 ---
