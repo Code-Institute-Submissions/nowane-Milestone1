@@ -120,7 +120,7 @@
 >
 >  This is the palette of colors used, which was matched by [coolors](https://coolors.co/) 
 >
-> [schema](assets/images/color-schema.png)
+> ![palette](assets/images/color-schema.png)
 
  [Back to Table of Content](#Table-of-Content)
 
@@ -209,11 +209,49 @@
 >
 > -  #### **Testing User Stories from User Experience (UX) Section**
 >
-> -    ##### **First Time Visitor Goals**
+>  -  ##### **First Time Visitor Goals Testing**
 >
-> -    ##### **Returning Visitor Goals**
+>> * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about this gym.
+> When the user enters the website, the first thing see is a picture of a Gym, with a callout in the center trying to convince the user to join them.
 >
-> -    ##### **Frequent User Goals**
+>> * As a First Time Visitor, I want to be able to easily navigate throughout the site to find useful content.
+> At the top of the screen the user will see the navigation bar. It clearly shows sections which will be displayed at the site, and in what order. When the user scrolls, the section they will be at will light up. Whenever the user wants to go back to the start, they could either scroll, click "Home" in the navigation bar, or click at either the logo in the navigation bar or the footer.
+>
+>> * As a First Time Visitor, I want to be able to view the content of the website clearly on my mobile device.
+> The full website is responsive, so whenever the user uses a smaller screen the content will adapt. 
+>
+>> * As a First Time Visitor, I want to be able to find testimonials to understand what their users think of them to determine their trustworthiness. 
+> Almost directly below the hero-image and a small "about us" section, the user will see the testimonials. Other than that is it shows at the top of the screen in the navigation bar as well.
+>
+>> * As a First Time Visitor, I want to be able to locate their social media links to see their followings on social media, so I can determine how well known they are.
+> The user will see a floating bar with the gym's socials in the center at the left side of the screen. Whenever a screen gets too small and it gets cramped, the social links will disappear and can be found in the footer, where they are located in most cases.
+>
+>> * As a First Time Visitor, I want to be able to find out what is costs to become a member.
+> Other than the fact dat the user saw he could join and get one month of free excersize, the user could not find out what it costs to become a member.
+>
+>  -  ##### **Returning Visitor Goals Testing****
+>
+>> * As a Returning Visitor, I want to find information about the services they offer.
+> The user will find a testimonial and a classes section, providing them with information of what is offered. The timetable concerning the group lessons are just below the classes. Due to the nature of the timetable (since it is so large), it won't be shown on smaller screens. Otherwise it would be a bad user experience.
+> The classes will be shown, but at smaller sizes the information provided with them will be left out. This is to keep everything easy andorganized for the user, aiming to provide a good user experience.
+> The smaller the screen, the lesser testimonials will be shown to the user. This is to keep it a user friendly and organized experience.
+>
+>> * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
+> The website shows a phone number and at the bottom of the site there is a contact form. This way the user can always get in contact with the gym.
+>
+>> * As a Returning Visitor, I want to find information about the given classes.
+> In the navigation bar the section classes is shown. The user could either click it, or scroll down, and watch the navigation bar light up at the classes-section when the user gets there.
+>
+>  -   ##### **Frequent User Goals Testing****
+>
+>> * As a Frequent User, I want to check to see if there are any (newly added) announcements.
+> The callout-section of the website could be used as a way to announce important information. The user also is able to easily take a look at the gym's social media channels.
+>
+>> * As a Frequent User, I want to check to see if there are any new updates on the lesson schedule.
+> The classes and lesson schedule is an important part of imformation provided at the website. If anything changes, the user will be easily able to see it.
+>
+>> * As a Frequent User, I want to check to see if there are any new photos and media from the clubs activities at social media.
+> The user will be easily able to see anythink new on social media because of the floating social media bar at the left side of the screen.
 
   [Back to Table of Content](#Table-of-Content)
 
