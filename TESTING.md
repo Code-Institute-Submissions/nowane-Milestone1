@@ -17,13 +17,15 @@
 >
 > The first results where as follows :
 >
-> ![Debug1](assets/images/testing-images/html/html-debug1.png)
-> ![Debug2](assets/images/testing-images/html/html-debug2.png)
-> ![Debug3](assets/images/testing-images/html/html-debug3.png)
-> ![Debug-compplete](assets/images/testing-images/html/html-debig-complete.png)
+> ![Debug1-HTML](assets/images/testing-images/html/html-debug1.png)
+> ![Debug2-HTML](assets/images/testing-images/html/html-debug2.png)
+> ![Debug3-HTML](assets/images/testing-images/html/html-debug3.png)
+> ![Debug-complete](assets/images/testing-images/html/html-debug-complete.png)
 >
 > * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate CSS
 >
+> ![Debug-CSS](assets/images/testing-images/css/css-debug.png)
+> ![Debug-complete-CSS](assets/images/testing-images/css/css-debug-complete.png)
 >
 >  -   #### **Further testing**
 >
