@@ -14,6 +14,11 @@ h6 {
   font-family: 'Abril Fatface', serif;
 }
 
+/* 
+img {
+  aspect-ratio: attr(width) / attr(height);
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Section spacing */
 
 .hr-container {
@@ -210,6 +215,10 @@ nav {
   margin-bottom: 40px;
 }
 
+#timetable {
+  margin: 50px;
+}
+
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Contact form  */
 
 #contact .contact-form-p {
@@ -283,4 +292,8 @@ nav {
   background-color: #94001e;
   margin-bottom: 0;
   padding: 10px;
+}
+
+footer div section .social-buttons {
+  text-align: center;
 }

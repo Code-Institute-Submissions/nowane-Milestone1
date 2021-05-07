@@ -1,15 +1,4 @@
-### Navigation bar
->
-> * When at mobile size, the hamburger menu shows at the right side. When clicked, the link-items are shown at the left side. This isn't an intuitive UX, since you would expect the listed items to show at the right side as well.
->
->
->
->
->
->
->
->
----
+   ## **Testing**
 
 > The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 >
@@ -27,7 +16,7 @@
 > ![Debug-CSS](assets/images/testing-images/css/css-debug.png)
 > ![Debug-complete-CSS](assets/images/testing-images/css/css-debug-complete.png)
 >
->  -   #### **Further testing**
+>    #### **Further testing**
 >
 >   * Google Lighthouse - Desktop
 >
@@ -39,15 +28,12 @@
 >
 >   * Google Lighthouse - Mobile
 >
-> [ighthousemobile1](assets/images/testing-images/lighthouse/lighthousedesktop1.png)
+> ![lighthousemobile1](assets/images/testing-images/lighthouse/lighthousedesktop1.png)
 >
->  -   #### **Known Bugs**
+>      #### **Known Bugs**
 >
->
->
->
->
->
->
+> * The navigation bar is not exactly centered.
+> * Social icons in the footer styled properly.
+> * Any feedback given by Lighthouse, since sadly I ran out of time to adjust it.
 >
 > [Return to README.md Document](https://github.com/nowane/Milestone1/blob/master/README.md)
