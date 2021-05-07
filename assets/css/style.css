@@ -30,23 +30,23 @@ nav {
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Button */
 
 .btn-slide-red {
-  color: #b51435;
+  color: #94001e;
   background: #FFF;
   padding: 3px 6px;
   margin: 3px;
-  border: 3px solid #28a745;;
+  border: 3px solid #77b950;
   font-weight: bold;
   border-radius: 1px;
   display: inline-block;
   text-align: center;
-  box-shadow: inset 0 0 0 0 #b51435;
+  box-shadow: inset 0 0 0 0 #94001e; 
   -webkit-transition: all ease 1.2s;
   -moz-transition: all ease 1.2;
   transition: all ease 1.2;
 }
 
 .btn-slide-red:hover {
-  box-shadow: inset 170px 0 0 0 #28a745;
+  box-shadow: inset 170px 0 0 0 #77b950;
   color: #fff;
 }
 
