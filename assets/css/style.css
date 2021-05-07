@@ -104,48 +104,51 @@ nav {
 
 #home .row .dream-big .row-height-dream {
   font-family: 'Abril Fatface', serif;
-  color:#ffbe0a;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
 
-.social-buttons-side {
-  position: fixed !important;
-	z-index: 10000;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	transform: translateY(-50%);
+.socials-side {
+  position: fixed;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
-.social-buttons-side a {
+.socials-side a {
   display: block;
   text-align: center;
-  padding: 14px;
+  padding: 15px;
   transition: all 0.5s ease;
-  color: white;
-  font-size: 1rem;
+  color: #FFF;
+  font-size: 25px;
   border-radius: 50%;
-
+  margin-left: 2px;
 }
 
-.social-buttons-side a:hover {
-  background-color: #000;
+.socials-side a:hover {
+    background-color: #ffbe0a;
 }
 
-#facebook-side {
+.facebook {
   background: #4267B2;
   color: white;
 }
 
-#instagram-side {
+.instagram {
   background: #8a3ab9;
   color: white;
 }
 
-#youtube-side {
+.youtube {
   background: #bb0000;
   color: white;
+}
+
+.sticky-bar {
+  margin-left: 75px;
+  font-size: 30px;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ About us */
@@ -276,42 +279,6 @@ nav {
 .location {
   text-align: right;
   align-items: flex-end;
-}
-
-#social-buttons-footer a {
-  display: flex;
-  text-align: center;
-  padding: 14px;
-  transition: all 0.5s ease;
-  color: white;
-  font-size: 4rem;
-  border-radius: 50%;
-  width: 30x;
-  height: 30px;
-  background: ;
-  margin ;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-#social-buttons-footer a:hover {
-  background-color: #000;
-}
-
-#facebook-footer {
-  background: #4267B2;
-  color: white;
-}
-
-#instagram-footer {
-  background: #8a3ab9;
-  color: white;
-}
-
-#youtube-footer {
-  background: #bb0000;
-  color: white;
 }
 
 .footer-bottom-p {

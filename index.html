@@ -41,7 +41,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbar-menu">
                     <!-- Navigation menu items-->
-                    <ul class="navbar-nav mx-auto ">
+                    <ul class="navbar-nav mx-auto">
                         <li class="nav-item" data-toggle="collapse">
                             <a href="#home" class="nav-link">Home</a>
                         </li>
@@ -68,7 +68,7 @@
     </header>
 
     <!-- Used as a guideline for CSS positioning http://bit.ly/3qSMcbN  -->
-        <!-- Used the Boostrap grid system for letter-placement https://getbootstrap.com/docs/4.6/layout/grid/  -->
+    <!-- Used the Boostrap grid system for letter-placement https://getbootstrap.com/docs/4.6/layout/grid/  -->
     <!-- Hero image -->
     <div id="home" class="container-fluid callout-container">
         <!-- Callout -->
@@ -101,27 +101,29 @@
                 <div class="row row-height-dream">I</div>
                 <div class="row row-height-dream">G</div>
                 <div class="row row-height-dream"></div>
-
             </div>
         </div>
     </div>
 
     <!-- Sticky social bar is based on https://www.w3schools.com/howto/howto_css_sticky_social_bar.asp -->
-    <div class="social-buttons-side d-none d-sm-block">
-        <a href="https://www.facebook.com" target="_blank" rel="noopener" class="sr-only" id="facebook-side"><i
+
+    <div class="socials-side">
+        <a href="https://www.facebook.com" target="_blank" rel="noopener" class="facebook"><i
                 class="fab fa-facebook-square"></i></a>
-        <a href="https://www.instagram.com" target="_blank" rel="noopener" class="sr-only" id="instagram-side"><i
+        <a href="https://www.instagram.com" target="_blank" rel="noopener" class="instagram"><i
                 class="fab fa-instagram-square"></i></a>
-        <a href="https://www.youtube.com" target="_blank" rel="noopener" class="sr-only" id="youtube-side"><i
-                class="fab fa-youtube-square"></i></a>
+        <a href="https://www.youtube.com" target="_blank" rel="noopener" class="youtube">
+            <i class="fab fa-youtube-square"></i>
+        </a>
     </div>
+
 
     <!-- About us -->
     <div class="container aboutus-container">
         <section id="aboutus" class="container">
             <div class="container font-weight-bold text-center">
                 <h2 class="font-weight-bold">About Us</h2>
-                <p class="aboutus-p"> ze Gym is modern fitness center with excellent amenities and training
+                <p class="aboutus-p"> ze Gym is a modern fitness center with excellent amenities and training
                     equipment. We offer a wide range of classes and programs, tailored to improve stamina and
                     fitness goals of each gym member.</p>
 
@@ -446,22 +448,26 @@
                 <p class="contact-form-p">Please get in touch</p>
                 <form id="contact-form">
                     <div class="form-group">
-                        <label for="name" class="col-8 d-inline-block font-weight-bold dark-grey-text" aria-describedby="full name">Full Name</label>
+                        <label for="name" class="col-8 d-inline-block font-weight-bold dark-grey-text"
+                            aria-describedby="full name">Full Name</label>
                         <input class="col-8 form-input" type="text" id="name" name="name" placeholder="- Full Name -">
                     </div>
                     <div class="form-group">
-                        <label for="tel" class="col-8 d-inline-block font-weight-bold dark-grey-text" aria-describedby="Telephone">Telephone
+                        <label for="tel" class="col-8 d-inline-block font-weight-bold dark-grey-text"
+                            aria-describedby="Telephone">Telephone
                             Number</label>
                         <input class="col-8 form-input" type="tel" id="tel" name="tel" placeholder="- Phone Number -">
                     </div>
                     <div class="form-group">
-                        <label for="email" class="col-8 d-inline-block font-weight-bold dark-grey-text" aria-describedby="emailHelp">Email
+                        <label for="email" class="col-8 d-inline-block font-weight-bold dark-grey-text"
+                            aria-describedby="emailHelp">Email
                             Address</label>
                         <input class="col-8 form-input" type="email" id="email" name="email"
                             placeholder="- Email Address -">
                     </div>
                     <div class="form-group">
-                        <label for="info" class="col-8 d-inline-block font-weight-bold dark-grey-text" aria-describedby="input message">Your
+                        <label for="info" class="col-8 d-inline-block font-weight-bold dark-grey-text"
+                            aria-describedby="input message">Your
                             Message</label>
                         <textarea class="col-8 form-input" name="info" id="info"
                             placeholder="- Write your message here. -"></textarea>
@@ -511,7 +517,8 @@
                             <label class="form-check-label" for="modal-checkbox">Remember Me</label>
                         </div>
                         <button type="submit" class="btn-slide-red">Enter</button>
-                        <p class="text-muted text-muted-signin"><small>Not yet a member? Sign up and click the "Join Us" button
+                        <p class="text-muted text-muted-signin"><small>Not yet a member? Sign up and click the "Join Us"
+                                button
                                 just below this pop-up!</small></p>
                     </form>
                 </div>
@@ -629,14 +636,11 @@
                     </div>
                     <div id="social-button-footer" class="social-buttons col-4 d-none d-sm-block d-md-none">
                         <a href="https://www.facebook.com/" target="_blank" rel="noopener"><i
-                                class="fab fa-facebook-square"><span class="sr-only"
-                                    id="facebook-footer">Facebook</span></i></a>
+                                class="fab fa-facebook-square"><span class="sr-only">Facebook</span></i></a>
                         <a href="https://www.instagram.com/" target="_blank" rel="noopener"><i
-                                class="fab fa-instagram-square"><span class="sr-only"
-                                    id="instagram-footer">Instagram</span></i></a>
+                                class="fab fa-instagram-square"><span class="sr-only">Instagram</span></i></a>
                         <a href="https://twitter.com/" target="_blank" rel="noopener"><i
-                                class="fab fa-youtube-square"><span class="sr-only"
-                                    id="youtube-footer">Youtube</span></i></a>
+                                class="fab fa-youtube-square"><span class="sr-only">Youtube</span></i></a>
                     </div>
                     <div class="col-4 location">
                         <address>
