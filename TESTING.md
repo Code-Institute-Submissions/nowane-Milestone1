@@ -29,7 +29,17 @@
 >
 >  -   #### **Further testing**
 >
->      Google Lighthouse
+>   * Google Lighthouse - Desktop
+>
+> [ighthouseDestop1](assets/images/testing-images/lighthouse/lighthousedesktop1.png)
+> [ighthouseDestop2](assets/images/testing-images/lighthouse/lighthousedesktop2.png)
+> [ighthouseDestop3](assets/images/testing-images/lighthouse/lighthousedesktop3.png)
+> [ighthouseDestop4](assets/images/testing-images/lighthouse/lighthousedesktop4.png)
+> [ighthouseDestop5](assets/images/testing-images/lighthouse/lighthousemobile1.png)
+>
+>   * Google Lighthouse - Mobile
+>
+> [ighthousemobile1](assets/images/testing-images/lighthouse/lighthousedesktop1.png)
 >
 >  -   #### **Known Bugs**
 >
