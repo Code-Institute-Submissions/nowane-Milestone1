@@ -17,10 +17,10 @@
 >
 > The first results where as follows :
 >
-> [Image-1](assets/images/testing-images/html/html-debug1.png)
-> [Image-2](assets/images/testing-images/html/html-debug2.png)
-> [Image-3](assets/images/testing-images/html/html-debug3.png)
->
+> ![Debug1](assets/images/testing-images/html/html-debug1.png)
+> ![Debug2](assets/images/testing-images/html/html-debug2.png)
+> ![Debug3](assets/images/testing-images/html/html-debug3.png)
+> ![Debug-compplete](assets/images/testing-images/html/html-debig-complete.png)
 >
 > * [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - Used to validate CSS
 >
