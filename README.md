@@ -2,12 +2,14 @@
 
  * GYM LOGO 
 
-[View the live project here.](https://-----------------------)
+[View the live project here.](https://nowane.github.io/Milestone1/)
 
 ### **Project Overview**
 > This is the first milestone project in obtaining a **Full-Stack Web Development Diploma** from  **[Code Institute](https://codeinstitute.net/)**. This project is made with **HTML**, **CSS** and the **Bootstrap** framework. To improve the overall quality and user experience of this website other technologies were used as well. The full list of technologies used can be found in the technologies section of this document. 
 
 ### **Mockup**
+
+![Mockup]("assets/docs/wireframes/mockup.png")
 
 ### **Table of Content**
 
