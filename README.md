@@ -89,10 +89,15 @@
    ### **Design**
 
 >  -  #### **Colour Scheme**
+>
+>  
 > 
 >  -  #### **Typography**
-> 
+>
+>  * [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) - Used for a pretty and clear overall type of letter.
+>  * [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface?query=fatfa#standard-styles) - Used for heavy titles with a classy look.
 >  -  #### **Imagery**
+>
 > 
 >
 >[Back to Table of Content](#Table-of-Content)
@@ -116,13 +121,25 @@
 
 -   ### **Features**
 
+> * Single page site with 5 sections acting as individual pages.
+> * Inspirational hero image.
+> * A (for now cosmetic) Sign In button to easily enter the website as a member.
+> * For non-members just below the opened Sign In form, or clearly centered in the hero-image section, there is a (for now cosmetic) Sign Up button to easily be able to sign up.
+> * Clickable logo in the left top-conter which will take the user back to the top.
+> * Fixed navigation with scrollspy allows the user to easily navigate and keep track of their position on the website.
+> * Fixed socials at larger screens allow the user to quickly have acces to social media links.
+> * An about us section, telling a bit about the gym.
+> * A responsive testimonial section with a clear star-rating.
+> * At larger screens a classes section with info about what the gym is offering, which will responsively leave out the information of the available classes (but still will show the available classes) at smaller screen sizes.          
+> * At larger screens a timetable, which will responsively disappear when the screen-size gets too small.
+> * A responsive contact form.
+> * A Responsive footer containing: 
+>  - The opening times
+>  - The location of the gym
+>  - A clickable logo of the gym, returning the user back to the top of the page.
 >
->
->
->
->
->
-> [Back to Table of Content](#Table-of-Content)
+
+ [Back to Table of Content](#Table-of-Content)
 
 ---
 
@@ -150,10 +167,14 @@
 > * [Balsamiq](https://balsamiq.com/) - Used to create wireframes for the UX stage of the project.
 > * [Coolors](https://coolors.co/) - Used to find a matching color palette for the website
 > * [Google Chrome Developer Tools](https://developer.chrome.com/docs/devtools/) - Used throughout building the project, testing the responsiveness of elements and CSS visuals.
->
->
+> * [TinyPNG](https://tinypng.com/) - Used for all images to cut back the size of .png files.
+> * [JPG to PNG](https://jpg2png.com/) - Used for multiple pictures to convert from .jpg to .png .
+> * [I love IMG](https://www.iloveimg.com/resize-image) - Used to resize images.
+> * [Unsplash](https://unsplash.com/) - Used for background images and review-pictures.
+> * [Favicon Generator](https://www.favicon-generator.org/) - Used to create a favicon.
+> * [MS PAINT](https://support.microsoft.com/nl-nl/windows/microsoft-paint-downloaden-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) - Used to resize the original image for the favicon
+> * [Namecheap](https://www.namecheap.com/logo-maker/app/) - Used to create the website logo and the favicon image.
 > 
->
 >
 > [Back to Table of Content](#Table-of-Content)
 
