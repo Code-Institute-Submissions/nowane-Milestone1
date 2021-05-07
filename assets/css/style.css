@@ -75,7 +75,7 @@ nav {
 }
 
 .row-height-smaller{
-  height: 20vh;
+  height: 25vh;
 }
 
 .row-height-dream {
@@ -102,8 +102,9 @@ nav {
   margin: 10px;
 }
 
-#home .row .dream-big {
+#home .row .dream-big .row-height-dream {
   font-family: 'Abril Fatface', serif;
+  color:#ffbe0a;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Sticky socials */
@@ -269,6 +270,7 @@ nav {
 #logo-footer {
   position: relative;
   text-align: center;
+  justify-content: center;
 }
 
 .location {
