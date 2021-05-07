@@ -188,7 +188,16 @@ nav {
 }
 
 .classes-class {
+}
 
+
+@media screen and (max-width: 768px) {
+.classes-container #classes .row .col-6 .class-title {
+  padding: 30px;
+  border-radius: 50%;
+  background: #94001e;
+  color: #FFF;
+}
 }
 
 
