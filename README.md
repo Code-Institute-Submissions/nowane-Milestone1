@@ -14,7 +14,7 @@
 ### **Table of Content**
 
 > * [Tradeoff Table](#Tradeoff-Table)
-> * [User Experience (UX)](#User-Experience-(UX))
+> * [User Experience -UX-](#User-Experience--UX-)
 > * [User stories](#User-Stories) 
 >    * [First Time Visitor Goals](#First-Time-Visitor-Goals)
 >    * [Returning Visitor Goals](#Returning-Visitor-Goals)
@@ -28,12 +28,16 @@
 > * [Technologies used](#Technologies-used)
 >    * [Languages used](#Languages-used)
 >    * [Integrations](#Integrations)
->    * [Workspace, version control and repository storage](#Workspace,-version-control-and-Repository-storage)
+>    * [Workspace- version control and repository storage](#Workspace--version-control-and-Repository-storage)
 >    * [Other Technologies](#Other-Technologies)
 > * [Testing](#Testing)
->    * [Testing User Stories from User Experience (UX) Section](#Testing-User-Stories-from-User-Experience-(UX)-Section)
-> * [Credits](#Credits)
+>    * [Testing User Stories from User Experience -UX- Section](#Testing-User-Stories-from-User-Experience--UX--Section)
+>    * [First Time Visitor Goals Testing](#First-Time-Visitor-Goals-Testing)
+>    * [Returning Visitor Goals Testing](#Returning-Visitor-Goals-Testing)
+>    * [Frequent User Goals Testing](#Frequent-User-Goals-Testing)
 > * [Deployment](#Deployment)
+> * [Credits](#Credits)
+
 
 
 
@@ -62,7 +66,7 @@
 
 > #### **User stories**
 >
->  -  ##### **First Time Visitor Goals**
+>    ##### **First Time Visitor Goals**
 >
 > * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about this gym.
 > * As a First Time Visitor, I want to be able to easily navigate throughout the site to find useful content.
@@ -71,13 +75,13 @@
 > * As a First Time Visitor, I want to be able to locate their social media links to see their followings on social media, so I can determine how well known they are.
 > * As a First Time Visitor, I want to be able to find out what is costs to become a member.
 >
->  -  ##### **Returning Visitor Goals**
+>    ##### **Returning Visitor Goals**
 >
 > * As a Returning Visitor, I want to find information about the services they offer.
 > * As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
 > * As a Returning Visitor, I want to find information about the given classes.
 >
-> -   ##### **Frequent User Goals**
+>    ##### **Frequent User Goals**
 >
 > * As a Frequent User, I want to check to see if there are any (newly added) announcements.
 > * As a Frequent User, I want to check to see if there are any new updates on the lesson schedule.
@@ -90,7 +94,7 @@
 
    ### **Design**
 
->  -  #### **Colour Scheme**
+>    #### **Colour Scheme**
 >  
 > The following are the colours used for this project, based on a schematic provided by [Coolors](https://coolors.co/) /
 >
@@ -100,15 +104,15 @@
 >  * White: Simplicity, cleanliness, peace, precision, innocence, youth and good
 >  * Black: Power, sophistication, formality, elegance, unhappiness and style,
 >
-> [Color Schema]("assets/images/color-schem.png")
+> [Color Schema](assets/images/color-schema.png)
 >
 >
->  -  #### **Typography**
+>    #### **Typography**
 >
 >  * [Roboto](https://fonts.google.com/specimen/Roboto?query=roboto) - Used for a pretty and clear overall type of letter.
 >  * [Abril Fatface](https://fonts.google.com/specimen/Abril+Fatface?query=fatfa#standard-styles) - Used for heavy titles with a classy look.
 >
->  -  #### **Imagery**
+>    #### **Imagery**
 >
 >  The following colors are used throughout the project:
 >
@@ -120,7 +124,7 @@
 >
 >  This was based on information found here (https://www.incredibleart.org/lessons/middle/color2.htm)
 >
->  This is the palette of colors used, which was matched by [coolors](https://coolors.co/) 
+>  This is the palette of colors used, which was matched by [Coolors](https://coolors.co/) 
 >
 > ![palette](assets/images/color-schema.png)
 
@@ -143,7 +147,7 @@
 
 ---
 
--   ### **Features**
+   ### **Features**
 
 > * Single page site with 5 sections acting as individual pages.
 > * Inspirational hero image.
@@ -169,24 +173,24 @@
 
   ### **Technologies used**
 
->  -  #### **Languages used**
+>    #### **Languages used**
 >
 > * **HTML** - Main language used to structure the individual pages of the website.
 > * **CSS** - Styling language used to format and visually build upon the accompanying HTML.
 > 
->  -  #### **Integrations**
+>    #### **Integrations**
 >
 > * [Bootstrap](https://getbootstrap.com/) - Used for core structuring the layout of the website, ensuring mobile-first design and responsive size display.
 > * [Google Fonts](https://fonts.google.com/) - will be used, specificity later ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 > * [Font Awesome](https://fontawesome.com/) - will be used, specificity later ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 >
->  -  #### **Workspace, version control and repository storage**
+>    #### **Workspace- version control and repository storage**
 >
 > * [Git](https://git-scm.com/) - Version control software used to commit and push code to the GitHub repository where the source code is stored.
 > * [Gitpod](https://www.gitpod.io/) - Main workspace IDE (Integrated Development Environment)
 > * [GitHub](https://github.com/) - Used to host the deployed website and repository of all previous versions of the build.
 >
->  -  #### **Other Technologies**
+>    #### **Other Technologies**
 >
 > * [Balsamiq](https://balsamiq.com/) - Used to create wireframes for the UX stage of the project.
 > * [Coolors](https://coolors.co/) - Used to find a matching color palette for the website
@@ -198,20 +202,20 @@
 > * [Favicon Generator](https://www.favicon-generator.org/) - Used to create a favicon.
 > * [MS PAINT](https://support.microsoft.com/nl-nl/windows/microsoft-paint-downloaden-a6b9578c-ed1c-5b09-0699-4ed8115f9aa9) - Used to resize the original image for the favicon
 > * [Namecheap](https://www.namecheap.com/logo-maker/app/) - Used to create the website logo and the favicon image.
-> 
+> > [Mockup](http://ami.responsivedesign.is/)
 
   [Back to Table of Content](#Table-of-Content)
 
 ---
 
-- ### **Testing**
+ ### **Testing**
 
 > This [Testing](https://github.com/nowane/Milestone1/blob/master/testing.md) document will contain all testing, except user stories (see below).
 > 
 >
-> -  #### **Testing User Stories from User Experience (UX) Section**
+>   #### **Testing User Stories from User Experience (UX) Section**
 >
->  -  ##### **First Time Visitor Goals Testing**
+>    ##### **First Time Visitor Goals Testing**
 >
 >> * As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about this gym. - When the user enters the website, the first thing see is a picture of a Gym, with a callout in the center trying to convince the user to join them.
 >
@@ -225,7 +229,7 @@
 >
 >> * As a First Time Visitor, I want to be able to find out what is costs to become a member. - Other than the fact dat the user saw he could join and get one month of free excersize, the user could not find out what it costs to become a member.
 >
->  -  ##### **Returning Visitor Goals Testing****
+>    ##### **Returning Visitor Goals Testing**
 >
 >> * As a Returning Visitor, I want to find information about the services they offer. - The user will find a testimonial and a classes section, providing them with information of what is offered. The timetable concerning the group lessons are just below the classes. Due to the nature of the timetable (since it is so large), it won't be shown on smaller screens. Otherwise it would be a bad user experience.
 > The classes will be shown, but at smaller sizes the information provided with them will be left out. This is to keep everything easy andorganized for the user, aiming to provide a good user experience.
@@ -235,7 +239,7 @@
 >
 >> * As a Returning Visitor, I want to find information about the given classes. -  In the navigation bar the section classes is shown. The user could either click it, or scroll down, and watch the navigation bar light up at the classes-section when the user gets there.
 >
->  -   ##### **Frequent User Goals Testing****
+>    ##### **Frequent User Goals Testing**
 >
 >> * As a Frequent User, I want to check to see if there are any (newly added) announcements. - The callout-section of the website could be used as a way to announce important information. The user also is able to easily take a look at the gym's social media channels.
 >
@@ -247,7 +251,7 @@
 
 ---
 
--   ### **Deployment**
+   ### **Deployment**
 
 > Deploying to GitHub Pages:
 > 
@@ -266,7 +270,7 @@
 
 ---
 
--   ### **Credits**
+   ### **Credits**
 
 > The pictures used for the testimonial-section of the website came from [Unsplash](https://unsplash.com/). Many thanks to the following photographers!
 >  * [Michael Dam](https://unsplash.com/@michaeldam) with this [picture](https://unsplash.com/photos/mEZ3PoFGs_k)
@@ -276,8 +280,8 @@
 >  * [Monica Dahiya](https://unsplash.com/@monicasinghdahiya) with this [picture](https://unsplash.com/photos/zANv7V53KQw)
 >  * [Parizad Shojaei](https://unsplash.com/@parizad_shojaei) with this [picture](https://unsplash.com/photos/zdAPoZtQeSE)
 >
->
->
+>  * Thanks to the Slack-comunity. So much things are already asked and ready to be looked up!
+>  * Special thanks to my mentor Aaron Sinnott for brainstorming.and assistance.
 >
 >
 >
